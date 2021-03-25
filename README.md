@@ -15,23 +15,12 @@
   - [**Tools**](#tools)
 - [**Features**](#features)
   - [**Features Implemented**](#features-implemented)
-  - [**Responsive Design**](#responsive-design)
-  - [**Interactive Elements**](#interactive-elements)
   - [**Future Features**](#future-features)
+  - [**Responsive Design**](#responsive-design)
   - [**Site Construction**](#site-construction)
   - [**Page Layout**](#page-layout)
     - [**INDEX.HTML**](#indexhtml)
-    - [**GAME.HTML**](#gamehtml)
-  - [**Construction Table**](#construction-table)
-- [**Development Lifecycle and Task Allocation**](#development-lifecycle-and-task-allocation)
-- [**Project Management**](#project-management)
 - [**Version Control**](#version-control)
-    - [**Gitpod Workspaces**](#gitpod-workspaces)
-    - [**Branches**](#branches)
-    - [**Working within a branch**](#working-within-a-branch)
-    - [**Merging branches in GitHub**](#merging-branches-in-github)
-    - [**Update Gitpod with the latest GitHub commits**](#update-gitpod-with-the-latest-github-commits)
-    - [**Pull Requests**](#pull-requests)
 - [**Testing**](#testing)
 - [**Bugs**](#bugs)
 - [**Deployment**](#deployment)
@@ -50,13 +39,13 @@ This project is designed to showcase the Shiatsu Shin Tai massage with some info
  
 ## **UX (User Experience)**
  
-**Project Goals**
+### **Project Goals**
 - The primary goal of this site is to showcase Ali's Shiatsu Shin Tai massage business to attract new clients and provide a means of communication while linking to social media links. 
 
-**User Goals**
+### **User Goals**
 - The user will be able to find out more about shiatsu shin tai and be able to contact Ali for more information.
 
-**User Stories**
+### **User Stories**
 
 - As a user I want to use the site to learn more about shiatsu shin Tai and how to book an appointment so that I can have a massage.
 - As a user I want to be able to communicate with the business owner and find out what is involved in a Shiatsu Shin Tai massage so that I can decide if I'd like to try it. 
@@ -66,29 +55,20 @@ This project is designed to showcase the Shiatsu Shin Tai massage with some info
 - As a user I want pricing information to be on the site so that I can compare with other providers.
 - As a user I want to see a map of the location so that I can determine how close it is to my location and navigate there easily.  
 
-**Site Owner Goals** 
+### **Site Owner Goals** 
 - As a site owner I want the user to learn about Shiatsu Shin Tai massage and more about Ali.
 - As a site owner I want the user to be able to communicate with Ali on social media.
 - As a site owner I want to create a website with a great user experience so that visitors will come again. 
 
-## **Features**
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### **Existing Features**
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
+## **Design Choices**
 
-- Feature one is a section with a description of Shiatsu Shin Tai massage which allows users to understand more about the subject and the health benefits
-- Feature two is a section about the business owner and masseuse, Ali, including qualifications and an image of her for users to relate to. 
-- Feature three is a list of recent reviews so that the user can identify how other users have benefitted from the massage.
-- Feature four is a Google Map location so that the users can find the area and compare to where they are located.
-- Feature five is a contact page where the user can communicate with the business owner by filling out a form.
-- ...
+### **Fonts**
+### **Colours**
+### **Imagery**
+### **Wireframes**
 
-### **Features Left to Implement**
-- In the future I would like to implement an appointment booking system and for the user to receive feedback of appointment booked via email and sms.
-
-## Technologies Used
+## **Technologies**
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
@@ -103,7 +83,37 @@ In this section, you should mention all of the languages, frameworks, libraries,
   - Used to design a mobile-first responsive website layout.
 
 
-## Testing
+## **Features**
+
+In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+ 
+### **Features Implemented**
+- Feature 1 - allows users X to achieve Y, by having them fill out Z
+
+- Feature one is a section with a description of Shiatsu Shin Tai massage which allows users to understand more about the subject and the health benefits
+- Feature two is a section about the business owner and masseuse, Ali, including qualifications and an image of her for users to relate to. 
+- Feature three is a list of recent reviews so that the user can identify how other users have benefitted from the massage.
+- Feature four is a Google Map location so that the users can find the area and compare to where they are located.
+- Feature five is a contact page where the user can communicate with the business owner by filling out a form.
+- ...
+
+### **Future Features**
+- In the future I would like to implement an appointment booking system and for the user to receive feedback of appointment booked via email and sms.
+
+### **Responsive Design**
+
+
+### **Site Construction**
+
+
+### **Page Layout**
+- [**INDEX.HTML**](#indexhtml)
+
+
+## **Version Control**
+
+
+## **Testing**
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -119,11 +129,14 @@ For any scenarios that have not been automated, test the user stories manually a
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
+
+### **Bugs**
+
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-## Deployment
+## **Deployment**
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
@@ -135,14 +148,17 @@ In particular, you should provide all details of the differences between the dep
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
 
-## Credits
+## **Credits**
 
-### Content
+### **Content**
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
-### Media
+### **Images**
 - The photos used in this site were obtained from ...
 
-### Acknowledgements
+### **Inspiration**
+
+### **Acknowledgements**
 
 - I received inspiration for this project from X
+
