@@ -1,4 +1,5 @@
-- [**Contents**](#contents)
+## **Contents**
+
 - [**UX (User Experience)**](#ux-user-experience)
   - [**Project Goals**](#project-goals)
   - [**User Goals**](#user-goals)
@@ -20,12 +21,14 @@
   - [**Site Construction**](#site-construction)
   - [**Page Layout**](#page-layout)
     - [**INDEX.HTML**](#indexhtml)
+    - [**CONTENT.HTML**](#contenthtml)
 - [**Version Control**](#version-control)
 - [**Testing**](#testing)
 - [**Bugs**](#bugs)
 - [**Deployment**](#deployment)
   - [**Running Locally**](#running-locally)
 - [**Credits**](#credits)
+  - [**Content**](#content)
   - [**Images**](#images)
   - [**Colour**](#colour)
   - [**Inspiration**](#inspiration)
@@ -60,28 +63,39 @@ This project is designed to showcase the Shiatsu Shin Tai massage with some info
 - As a site owner I want the user to be able to communicate with Ali on social media.
 - As a site owner I want to create a website with a great user experience so that visitors will come again. 
 
+[Back to contents](#contents)
 
 ## **Design Choices**
 
 ### **Fonts**
 ### **Colours**
 ### **Imagery**
+
+The hero image on index.html was sourced from [Unsplash](https://unsplash.com/) for free and Photo by <a href="https://unsplash.com/@conscious_design?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Conscious Design</a> on <a href="https://unsplash.com/s/photos/massage-therapy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 ### **Wireframes**
+
+The wireframes were created using [Balsamiq](https://balsamiq.com/) 
+
+[Back to contents](#contents)
 
 ## **Technologies**
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+### **Languages**
 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
   - Used as the main markup language for the website content.
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
   - Used to style the individual webpages.
 
-### Libraries
+### **Libraries**
 ​
 - [Bootstrap](https://getbootstrap.com/)
   - Used to design a mobile-first responsive website layout.
+  
+### **Tools**
 
+[Back to contents](#contents)
 
 ## **Features**
 
@@ -108,10 +122,13 @@ In this section, you should go over the different parts of your project, and des
 
 ### **Page Layout**
 - [**INDEX.HTML**](#indexhtml)
+- [**CONTACT.HTML**](#contacthtml)
 
+[Back to contents](#contents)
 
 ## **Version Control**
 
+[Back to contents](#contents)
 
 ## **Testing**
 
@@ -129,12 +146,15 @@ For any scenarios that have not been automated, test the user stories manually a
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
+[Back to contents](#contents)
 
-### **Bugs**
+## **Bugs**
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+[Back to contents](#contents)
 
 ## **Deployment**
 
@@ -147,6 +167,7 @@ In particular, you should provide all details of the differences between the dep
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
+[Back to contents](#contents)
 
 ## **Credits**
 
@@ -154,7 +175,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### **Images**
-- The photos used in this site were obtained from ...
+- The hero image on index.html was sourced from [Unsplash](https://unsplash.com/) for free and Photo by <a href="https://unsplash.com/@conscious_design?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Conscious Design</a> on <a href="https://unsplash.com/s/photos/massage-therapy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 
 ### **Inspiration**
 
