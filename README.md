@@ -177,10 +177,12 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### **Images**
 - The hero image on index.html was sourced from [Unsplash](https://unsplash.com/) for free and Photo by <a href="https://unsplash.com/@conscious_design?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Conscious Design</a> on <a href="https://unsplash.com/s/photos/massage-therapy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
-
 ### **Inspiration**
+
+- Scrollspy navigation inspiration from Peer Code Review project posted by [Claire Lemonair](https://github.com/lemocla/MS1-Catsitting#acknowlegements), (https://lemocla.github.io/MS1-Catsitting/)
 
 ### **Acknowledgements**
 
 - I received inspiration for this project from X
 
+[Back to contents](#contents)
