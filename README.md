@@ -69,6 +69,11 @@ This project is designed to showcase the Shiatsu Shin Tai massage with some info
 
 ### **Fonts**
 ### **Colours**
+
+![Coolors Palette](assets/images/ms1-ali.png)
+Format: ![Coolors Palette](https://coolors.co/6f7785-8e4162-89909d-d4deed-f5f4f4)
+
+
 ### **Imagery**
 
 The hero image on index.html was sourced from [Unsplash](https://unsplash.com/) for free and Photo by <a href="https://unsplash.com/@conscious_design?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Conscious Design</a> on <a href="https://unsplash.com/s/photos/massage-therapy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
@@ -112,7 +117,8 @@ In this section, you should go over the different parts of your project, and des
 - ...
 
 ### **Future Features**
-- In the future I would like to implement an appointment booking system and for the user to receive feedback of appointment booked via email and sms.
+- Later I would like to implement an appointment booking system and for the user to receive feedback of appointment booked via email and sms.
+- I would also like to add an option for the user to review the business
 
 ### **Responsive Design**
 
