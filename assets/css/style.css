@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;  */
+
+.navibar {
+    color: #f5f4f4;
+    background-color: #81C5DF;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+}
+
+.navibar a {
+    color: #f5f4f4;
+}
+
+.navibar a:hover {
+    color: #41648b;
+    border-bottom: 1px solid #41648B;
+}
+
+.navibar a:active {
+    border-bottom: 1px solid #41648B;
+}
