@@ -1,23 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Montserrat&display=swap');
 
-/* font-family: 'Montserrat', sans-serif;  */
+/* font-family: 'Lobster Two', cursive;
+font-family: 'Montserrat', sans-serif; */
 
-.navibar {
+
+/* Navigation */
+.col {
+    padding: 0;
+    margin: 0;
+    border:0;
+}
+
+.navbar-brand,
+.nav-item,
+.navbar {
     color: #f5f4f4;
     background-color: #81C5DF;
-    font-family: 'Montserrat', sans-serif;
-    padding: 0px;
+    font-family: 'Lobster Two', cursive;
+    font-weight: 400;
+    font-size: 1.2em;
 }
 
-.navibar a {
+a {
+    color: #f5f4f4;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.navbar-brand:hover, 
+.nav-item a:hover {
+    text-decoration: underline;
     color: #f5f4f4;
 }
 
-.navibar a:hover {
-    color: #41648b;
-    border-bottom: 1px solid #41648B;
+.active {
+    text-decoration: underline;
+    color: #f5f4f4;
+
 }
 
-.navibar a:active {
-    border-bottom: 1px solid #41648B;
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #81C5DF;
 }
+
+
+/* hero image */
+
+.hero {
+    height: 80vh;
+    background: url('../images/conscious-design-J16LdoIsRJM-unsplash.jpg'); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.stones {
+    height: 80vh;
+    background: url('../images/engin-akyurt-ZbzYDboN7fg-unsplash.jpg'); 
+
+    justify-content: center;
+    /* align-items: center; */
+}
+
+/* About */
