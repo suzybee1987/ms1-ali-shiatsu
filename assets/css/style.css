@@ -9,6 +9,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #41648B;
     text-align: center;
+    position: relative;
+    overflow-y: scroll;
 }
 
 p {
@@ -50,13 +52,7 @@ a {
     color: #f5f4f4;
 }
 
-/* Overrides Bootstrap Button Colour  */
-.nav-link.active, 
-.nav-pills 
-.show>.nav-link {
-    color: #fff;
-    background-color: #81C5DF;
-}
+
 
 /* Nav button  */
 .navbar-toggler {
