@@ -7,10 +7,13 @@ font-family: 'Montserrat', sans-serif; */
 
 body {
     font-family: 'Montserrat', sans-serif;
-    position: relative;
     color: #41648B;
+    text-align: center;
 }
 
+p {
+    font-size: 0.8em;
+}
 
 /* Navigation */
 
@@ -22,11 +25,15 @@ nav {
 .navbar-brand,
 .nav-item,
 .navbar {
-    color: #f5f4f4;
+    color: #fff;
     background-color: #81C5DF;
     font-family: 'Lobster Two', cursive;
     font-weight: 400;
     font-size: 1.2em;
+}
+
+.navbar-dark .navbar-nav .nav-link, .navbar-toggler {
+    color: #fff;
 }
 
 a {
@@ -36,28 +43,26 @@ a {
 }
 
 .navbar-brand:hover, 
+.nav-link:hover,
 .nav-item a:hover,
 .active {
     text-decoration: underline;
     color: #f5f4f4;
 }
 
+/* Overrides Bootstrap Button Colour  */
 .nav-link.active, 
 .nav-pills 
 .show>.nav-link {
-    color: #f5f4f4;
+    color: #fff;
     background-color: #81C5DF;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-    color: #f5f4f4;
+/* Nav button  */
+.navbar-toggler {
+    /* border-color: #fff; */
+    border-width: 1.5px;
 }
-
-/* .navbar-toggler-icon,
-.navbar-dark {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,102,203, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
-} */
-
 
 /* hero image */
 
@@ -96,22 +101,17 @@ h1 {
 
 /* About */
 
-h4 {
+body h4 {
     text-decoration: underline;
     font-size: 2em;
     font-family: 'Lobster Two', sans-serif;
     padding-bottom: 20px;
     padding-top: 20px;
 }
-.about-right,
-.about-left{
-    font-size: 1em;
-}
 
-.about-center {
-    text-align: center;
+.about-bottom {
+    text-align: center
 }
-
 
 
 /* Pricing  */
@@ -129,7 +129,7 @@ h4 {
 /* Footer  */
 
 footer {
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     height: 50px;
     color: #f5f4f4;
     background-color: #81C5DF;
