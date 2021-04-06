@@ -72,6 +72,7 @@ a {
     justify-content: center;
     align-items: center;
     position: relative;
+    background-position: center;
 }
 
 h1 {
@@ -129,11 +130,24 @@ iframe {
 /* Footer  */
 
 footer {
-    /* overflow-y: scroll; */
-    height: 50px;
-    color: #f5f4f4;
     background-color: #81C5DF;
-    font-family: 'Lobster Two', cursive;
-    font-weight: 400;
-    font-size: 1.2em;
+}
+
+.sm-links li a i {
+    width: 50px;
+    height: 30px;    
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0;  
+    font-size: 1.5em;  
+    color: #fff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out; 
+}
+
+.sm-links li a i:hover {
+    color: #f5f4f4;
+    text-decoration: underline;
 }
