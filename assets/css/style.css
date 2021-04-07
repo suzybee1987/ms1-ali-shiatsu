@@ -131,6 +131,7 @@ iframe {
 
 footer {
     background-color: #81C5DF;
+    text-align: left;
 }
 
 .sm-links li a i {
@@ -150,4 +151,10 @@ footer {
 .sm-links li a i:hover {
     color: #f5f4f4;
     text-decoration: underline;
+}
+
+.sm-link-shiatsu li a {
+    width: 101px;
+    height: 63px;
+    text-align: left;
 }
