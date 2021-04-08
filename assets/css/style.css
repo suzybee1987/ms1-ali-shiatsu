@@ -8,7 +8,6 @@ font-family: 'Montserrat', sans-serif; */
 body {
     font-family: 'Montserrat', sans-serif;
     color: #41648B;
-    text-align: center;
     position: relative;
     overflow-y: scroll;
 }
@@ -98,12 +97,13 @@ h1 {
 
 /* About */
 
-body h4 {
+h4 {
     text-decoration: underline;
     font-size: 2em;
     font-family: 'Lobster Two', sans-serif;
     padding-bottom: 20px;
     padding-top: 20px;
+    text-align: center;
 }
 
 .about-bottom {
@@ -131,14 +131,17 @@ iframe {
 
 footer {
     background-color: #81C5DF;
-    text-align: left;
 }
 
-.sm-links li a i {
+.sm-links {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.sm-links li  {
     width: 50px;
     height: 30px;    
-    text-align: center;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 0;  
     font-size: 1.5em;  
     color: #fff;
@@ -153,8 +156,36 @@ footer {
     text-decoration: underline;
 }
 
-.sm-link-shiatsu li a {
-    width: 101px;
-    height: 63px;
+.sm-link-shiatsu li img {
+    width: 70px;
+    height: auto;
     text-align: left;
+    align-items: center;
+    margin-top: 15px;
+
+}
+
+
+/* contact me  */
+
+form {
+    margin-top: 100px;
+    width: 50%;
+    height: 50%;
+    
+}
+
+.reset { 
+    color: #f5f4f4;
+    background-color: #81C5DF;
+
+}
+
+.submit {
+    color: #81C5DF;
+    background-color: #f5f4f4;
+}
+
+btn:hover { 
+    color: green;
 }
