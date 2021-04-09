@@ -1,191 +1,188 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Montserrat&display=swap');
-
-/* font-family: 'Lobster Two', cursive;
-font-family: 'Montserrat', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Space+Grotesk:wght@400;500&display=swap");
+/* 
+font-family: 'Roboto', sans-serif;
+font-family: 'Space Grotesk', sans-serif; */
 
 /* Body  */
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    color: #41648B;
-    position: relative;
-    overflow-y: scroll;
+  font-family: "Roboto", sans-serif;
+  color: #41648b;
+  position: relative;
+  overflow-y: scroll;
 }
 
 p {
-    font-size: 0.8em;
+  font-size: 1em;
 }
 
 /* Navigation */
 
 nav {
-    position: fixed;
-    z-index: 100;
+  position: fixed;
+  z-index: 100;
 }
 
 .navbar-brand,
 .nav-item,
 .navbar {
-    color: #fff;
-    background-color: #81C5DF;
-    font-family: 'Lobster Two', cursive;
-    font-weight: 400;
-    font-size: 1.2em;
+  color: #fff;
+  background-color: #81c5df;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
 }
 
-.navbar-dark .navbar-nav .nav-link, .navbar-toggler {
-    color: #fff;
+.navbar-dark .navbar-nav .nav-link,
+.navbar-toggler {
+  color: #fff;
 }
 
 a {
-    color: #f5f4f4;
-    text-decoration: none;
-    background-color: transparent;
+  color: #f5f4f4;
+  text-decoration: none;
+  background-color: transparent;
 }
 
-.navbar-brand:hover, 
+.navbar-brand:hover,
 .nav-link:hover,
 .nav-item a:hover,
 .active {
-    text-decoration: underline;
-    color: #f5f4f4;
+  text-decoration: underline;
+  color: #f5f4f4;
 }
-
-
 
 /* Nav button  */
 .navbar-toggler {
-    /* border-color: #fff; */
-    border-width: 1.5px;
+  /* border-color: #fff; */
+  border-width: 1.5px;
 }
 
 /* hero image */
 
 .hero {
-    height: 80vh;
-    background: url('../images/conscious-design-J16LdoIsRJM-unsplash.jpg'); 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    background-position: center;
+  height: 80vh;
+  background: url("../images/conscious-design-J16LdoIsRJM-unsplash.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-position: center;
 }
 
 h1 {
-    font-family:'Lobster Two', sans-serif;
-    font-weight: 700;
-    color: #41648B;
-    background-color: #f5f4f4;
-    border-radius: .4rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  color: #41648b;
+  background-color: #f5f4f4;
+  border-radius: 0.4rem;
 }
 
 .heading {
-    width: 300px;
-    height: 100px;
-    margin-top: 150px;
-    background-color: rgba(129, 197, 223, 0.6);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
-    padding: 30px;
-    text-align: center;
-    border-radius: 0.3rem;
+  width: 300px;
+  height: 100px;
+  margin-top: 150px;
+  background-color: rgba(129, 197, 223, 0.6);
+  max-width: 400px;
+  position: absolute;
+  left: 10%;
+  padding: 30px;
+  text-align: center;
+  border-radius: 0.3rem;
 }
 
-/* About */
+/* About Shiatsu */
+
+h3 {
+    text-decoration: underline;
+    font-family: "Space Grotesk", sans-serif;
+}
 
 h4 {
-    text-decoration: underline;
-    font-size: 2em;
-    font-family: 'Lobster Two', sans-serif;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    text-align: center;
+  text-decoration: underline;
+  font-size: 2em;
+  font-family: "Space Grotesk", sans-serif;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
 }
 
 .about-bottom {
-    text-align: center
+  text-align: center;
 }
-
 
 /* Pricing  */
 .pricing {
-    background-color: #B3E8F4;
-    color: #41648B;
+  background-color: #b3e8f4;
+  color: #41648b;
 }
 
 /* Reviews  */
 
-
 /* Find  */
 
 iframe {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
-
 
 /* Footer  */
 
 footer {
-    background-color: #81C5DF;
+  background-color: #81c5df;
 }
 
 .sm-links {
-    text-align: right;
-    margin-right: 20px;
+  text-align: right;
+  margin-right: 20px;
 }
 
-.sm-links li  {
-    width: 50px;
-    height: 30px;    
-    margin-top: 20px;
-    margin-bottom: 0;  
-    font-size: 1.5em;  
-    color: #fff;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out; 
+.sm-links li {
+  width: 50px;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 1.5em;
+  color: #fff;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 .sm-links li a i:hover {
-    color: #f5f4f4;
-    text-decoration: underline;
+  color: #f5f4f4;
+  text-decoration: underline;
 }
 
 .sm-link-shiatsu li img {
-    width: 70px;
-    height: auto;
-    text-align: left;
-    align-items: center;
-    margin-top: 15px;
-
+  width: 70px;
+  height: auto;
+  text-align: left;
+  align-items: center;
+  margin-top: 15px;
 }
-
 
 /* contact me  */
 
 form {
-    margin-top: 100px;
-    width: 50%;
-    height: 50%;
-    
+  margin-top: 100px;
+  width: 50%;
+  height: 50%;
 }
 
-.reset { 
-    color: #f5f4f4;
-    background-color: #81C5DF;
-
+.reset {
+  color: #f5f4f4;
+  background-color: #81c5df;
 }
 
 .submit {
-    color: #81C5DF;
-    background-color: #f5f4f4;
+  color: #81c5df;
+  background-color: #f5f4f4;
 }
 
-btn:hover { 
-    color: green;
+btn:hover {
+  color: green;
 }
