@@ -7,30 +7,53 @@ font-family: 'Space Grotesk', sans-serif; */
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #41648b;
+  color: #80A1D4;
   position: relative;
   overflow-y: scroll;
+}
+
+h1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  background-color: #f5f4f4;
+  border-radius: 0.4rem;
 }
 
 p {
   font-size: 1em;
 }
 
+h3 {
+    text-decoration: underline;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+h4 {
+  text-decoration: underline;
+  font-size: 2em;
+  font-family: "Space Grotesk", sans-serif;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+
 /* Navigation */
 
 nav {
   position: fixed;
   z-index: 100;
+    background-color: #80A1D4;
+    height: 90px;
 }
 
 .navbar-brand,
 .nav-item,
 .navbar {
   color: #fff;
-  background-color: #81c5df;
   font-family: "Space Grotesk", sans-serif;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 .navbar-dark .navbar-nav .nav-link,
@@ -39,7 +62,7 @@ nav {
 }
 
 a {
-  color: #f5f4f4;
+  color: #fff;
   text-decoration: none;
   background-color: transparent;
 }
@@ -49,7 +72,7 @@ a {
 .nav-item a:hover,
 .active {
   text-decoration: underline;
-  color: #f5f4f4;
+  color: #DED9E2;
 }
 
 /* Nav button  */
@@ -74,13 +97,6 @@ a {
   background-position: top right;
 }
 
-h1 {
-  font-family: "Space Grotesk", sans-serif;
-  font-weight: 700;
-  color: #41648b;
-  background-color: #f5f4f4;
-  border-radius: 0.4rem;
-}
 
 .jumbotron {
   margin-top: 10px;
@@ -100,36 +116,61 @@ h1 {
 
 /* About Shiatsu */
 
-h3 {
-    text-decoration: underline;
-    font-family: "Space Grotesk", sans-serif;
+.shiatsu-section {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  height: 80vh;
 }
 
-h4 {
-  text-decoration: underline;
-  font-size: 2em;
-  font-family: "Space Grotesk", sans-serif;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  text-align: center;
+/* About Shin Tai  */
+
+.shintai-section {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-color: #75C9C8;
+  color: #f5f4f4;
+  height: 80vh;
 }
 
-.about-bottom {
-  text-align: center;
+.shintai-card {
+  background-color: #75C9C8;
+  color: #f5f4f4;
+  border-color: #f5f4f4;
+  border-width: 2px;
+}
+
+/* About Me  */
+
+.about-me { 
+  padding-top: 30px;
+  padding-bottom: 40px;
+  height: 80vh;
 }
 
 /* Pricing  */
-.pricing {
-  background-color: #b3e8f4;
-  color: #41648b;
+.price-section {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-color: #C0B9DD;
+  color: #f5f4f4;
 }
 
 /* Reviews  */
 
+.review-section {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  height: 80vh;
+}
+
 /* Find  */
 
-iframe {
-  padding-bottom: 10px;
+.find-me {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-color: #DED9E2;
+  color: #f5f4f4;
+  height: 80vh;
 }
 
 /* Footer  */
