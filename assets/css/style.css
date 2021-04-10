@@ -10,12 +10,13 @@ body {
   color: #80A1D4;
   position: relative;
   overflow-y: scroll;
+  /* overflow: hidden; */
 }
 
 h1 {
   font-family: "Space Grotesk", sans-serif;
   font-weight: 700;
-  background-color: #f5f4f4;
+  background-color: #F7F4EA;
   border-radius: 0.4rem;
 }
 
@@ -43,8 +44,8 @@ h4 {
 nav {
   position: fixed;
   z-index: 100;
-    background-color: #80A1D4;
-    height: 90px;
+  background-color: #80A1D4;
+  height: 70px;
 }
 
 .navbar-brand,
@@ -53,7 +54,7 @@ nav {
   color: #fff;
   font-family: "Space Grotesk", sans-serif;
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .navbar-dark .navbar-nav .nav-link,
@@ -72,12 +73,11 @@ a {
 .nav-item a:hover,
 .active {
   text-decoration: underline;
-  color: #DED9E2;
+  color: #F7F4EA;
 }
 
 /* Nav button  */
 .navbar-toggler {
-  /* border-color: #fff; */
   border-width: 1.5px;
 }
 
@@ -117,24 +117,24 @@ a {
 /* About Shiatsu */
 
 .shiatsu-section {
-  padding-top: 30px;
+  /* padding-top: 20px; */
   padding-bottom: 40px;
-  height: 80vh;
+  /* height: 80vh; */
 }
 
 /* About Shin Tai  */
 
 .shintai-section {
-  padding-top: 30px;
+  /* padding-top: 10px; */
   padding-bottom: 40px;
   background-color: #75C9C8;
-  color: #f5f4f4;
-  height: 80vh;
+  color: #F7F4EA;
+  /* height: 80vh; */
 }
 
 .shintai-card {
   background-color: #75C9C8;
-  color: #f5f4f4;
+  color: #F7F4EA;
   border-color: #f5f4f4;
   border-width: 2px;
 }
@@ -142,41 +142,41 @@ a {
 /* About Me  */
 
 .about-me { 
-  padding-top: 30px;
+  /* padding-top: 10px; */
   padding-bottom: 40px;
-  height: 80vh;
+  /* height: 80vh; */
 }
 
 /* Pricing  */
 .price-section {
-  padding-top: 30px;
+  /* padding-top: 10px; */
   padding-bottom: 40px;
   background-color: #C0B9DD;
-  color: #f5f4f4;
+  color: #F7F4EA;
 }
 
 /* Reviews  */
 
 .review-section {
-  padding-top: 30px;
+  /* padding-top: 10px; */
   padding-bottom: 40px;
-  height: 80vh;
+  /* height: 80vh; */
 }
 
 /* Find  */
 
 .find-me {
-  padding-top: 30px;
+  /* padding-top: 10px; */
   padding-bottom: 40px;
-  background-color: #DED9E2;
-  color: #f5f4f4;
-  height: 80vh;
+  background-color: #75C9C8;
+  color: #F7F4EA;
+  /* height: 80vh; */
 }
 
 /* Footer  */
 
 footer {
-  background-color: #81c5df;
+  background-color: #80A1D4;
 }
 
 .sm-links {
@@ -198,7 +198,7 @@ footer {
 }
 
 .sm-links li a i:hover {
-  color: #f5f4f4;
+  color: #F7F4EA;
   text-decoration: underline;
 }
 
@@ -219,13 +219,13 @@ form {
 }
 
 .reset {
-  color: #f5f4f4;
+  color: #F7F4EA;
   background-color: #81c5df;
 }
 
 .submit {
   color: #81c5df;
-  background-color: #f5f4f4;
+  background-color: #F7F4EA;
 }
 
 btn:hover {
