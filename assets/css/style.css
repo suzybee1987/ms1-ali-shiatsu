@@ -82,13 +82,20 @@ h1 {
   border-radius: 0.4rem;
 }
 
-.heading {
-  margin-top: 150px;
+.jumbotron {
+  margin-top: 10px;
   margin-left: 50px;
   position: absolute;
-  top: 10%
-  padding-left: 30px;
   text-align: center;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  margin-left: 30px;
+  background-color: rgba(245, 244, 244, 0.8);
+  border-radius: 0.5rem;
+}
+.jumbotron h1 {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
 }
 
 /* About Shiatsu */
