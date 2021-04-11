@@ -35,6 +35,10 @@ h4 {
   text-align: center;
 }
 
+p {
+  font-size: 90%;
+}
+
 /* Navigation */
 
 nav {
@@ -87,7 +91,7 @@ a {
   background-position: top right;
 }
 
-.jumbotron {
+.jumbotron-index {
   margin-top: 10px;
   margin-left: 50px;
   position: absolute;
@@ -112,6 +116,7 @@ a {
 
 .shintai-section {
   padding-bottom: 40px;
+  padding-top: 10px;
   background-color: #75c9c8;
   color: #f7f4ea;
 }
@@ -123,23 +128,40 @@ a {
   border-width: 2px;
 }
 
+.shintai-card li {
+  font-size: 90%;
+}
+
 /* About Me  */
 
 .about-me {
   padding-bottom: 40px;
 }
 
+
+
 /* Pricing  */
 .price-section {
   padding-bottom: 40px;
+  padding-top: 10px;
   background-color: #c0b9dd;
   color: #f7f4ea;
+    text-align: center;
+}
+
+.youtube {
+  padding: 20px 0;
+
 }
 
 /* Reviews  */
 
 .review-section {
   padding-bottom: 40px;
+}
+
+.review p {
+  font-size: 70%;
 }
 
 /* Find  */
@@ -189,12 +211,18 @@ footer {
 
 /* contact me  */
 
-form {
-  margin-top: 100px;
-  width: 50%;
-  height: 50%;
+.contact {
+  height: 100vh;
+  background: url("/assets/images/laurent-gence-lX7-dfIaeUc-unsplash\ \(1\).jpg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
+/* .jumbotron-form {
+  max-width: 400px;
+} */
 .reset {
   color: #f7f4ea;
   background-color: #81c5df;
