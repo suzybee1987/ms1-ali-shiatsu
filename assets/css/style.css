@@ -4,47 +4,42 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Space Grotesk', sans-serif; */
 
 /* Body  */
-
+html, 
 body {
   font-family: "Roboto", sans-serif;
-  color: #80A1D4;
+  color: #80a1d4;
   position: relative;
-  overflow-y: scroll;
-  /* overflow: hidden; */
+  padding: 0px;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 h1 {
   font-family: "Space Grotesk", sans-serif;
-  font-weight: 700;
-  background-color: #F7F4EA;
+  font-weight: 600;
+  background-color: #f7f4ea;
   border-radius: 0.4rem;
 }
 
-p {
-  font-size: 1em;
-}
-
 h3 {
-    text-decoration: underline;
-    font-family: "Space Grotesk", sans-serif;
+  text-decoration: underline;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 h4 {
   text-decoration: underline;
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: "Space Grotesk", sans-serif;
   padding-bottom: 20px;
   padding-top: 20px;
   text-align: center;
 }
 
-
 /* Navigation */
 
 nav {
-  position: fixed;
   z-index: 100;
-  background-color: #80A1D4;
+  background-color: #80a1d4;
   height: 70px;
 }
 
@@ -73,12 +68,7 @@ a {
 .nav-item a:hover,
 .active {
   text-decoration: underline;
-  color: #F7F4EA;
-}
-
-/* Nav button  */
-.navbar-toggler {
-  border-width: 1.5px;
+  color: #f7f4ea;
 }
 
 /* hero image */
@@ -97,7 +87,6 @@ a {
   background-position: top right;
 }
 
-
 .jumbotron {
   margin-top: 10px;
   margin-left: 50px;
@@ -105,7 +94,6 @@ a {
   text-align: center;
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  margin-left: 30px;
   background-color: rgba(245, 244, 244, 0.8);
   border-radius: 0.5rem;
 }
@@ -117,66 +105,55 @@ a {
 /* About Shiatsu */
 
 .shiatsu-section {
-  /* padding-top: 20px; */
   padding-bottom: 40px;
-  /* height: 80vh; */
 }
 
 /* About Shin Tai  */
 
 .shintai-section {
-  /* padding-top: 10px; */
   padding-bottom: 40px;
-  background-color: #75C9C8;
-  color: #F7F4EA;
-  /* height: 80vh; */
+  background-color: #75c9c8;
+  color: #f7f4ea;
 }
 
 .shintai-card {
-  background-color: #75C9C8;
-  color: #F7F4EA;
+  background-color: #75c9c8;
+  color: #f7f4ea;
   border-color: #f5f4f4;
   border-width: 2px;
 }
 
 /* About Me  */
 
-.about-me { 
-  /* padding-top: 10px; */
+.about-me {
   padding-bottom: 40px;
-  /* height: 80vh; */
 }
 
 /* Pricing  */
 .price-section {
-  /* padding-top: 10px; */
   padding-bottom: 40px;
-  background-color: #C0B9DD;
-  color: #F7F4EA;
+  background-color: #c0b9dd;
+  color: #f7f4ea;
 }
 
 /* Reviews  */
 
 .review-section {
-  /* padding-top: 10px; */
   padding-bottom: 40px;
-  /* height: 80vh; */
 }
 
 /* Find  */
 
 .find-me {
-  /* padding-top: 10px; */
   padding-bottom: 40px;
-  background-color: #75C9C8;
-  color: #F7F4EA;
-  /* height: 80vh; */
+  background-color: #75c9c8;
+  color: #f7f4ea;
 }
 
 /* Footer  */
 
 footer {
-  background-color: #80A1D4;
+  background-color: #80a1d4;
 }
 
 .sm-links {
@@ -185,7 +162,7 @@ footer {
 }
 
 .sm-links li {
-  width: 50px;
+  /* width: 50px; */
   height: 30px;
   margin-top: 20px;
   margin-bottom: 0;
@@ -198,7 +175,7 @@ footer {
 }
 
 .sm-links li a i:hover {
-  color: #F7F4EA;
+  color: #f7f4ea;
   text-decoration: underline;
 }
 
@@ -219,13 +196,13 @@ form {
 }
 
 .reset {
-  color: #F7F4EA;
+  color: #f7f4ea;
   background-color: #81c5df;
 }
 
 .submit {
   color: #81c5df;
-  background-color: #F7F4EA;
+  background-color: #f7f4ea;
 }
 
 btn:hover {
