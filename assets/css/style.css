@@ -59,18 +59,55 @@ nav {
 .navbar-dark .navbar-nav .nav-link,
 .navbar-toggler {
   color: #fff;
+  background-color: #80a1d4;
+  padding: 8px 16px;
 }
 
 a {
   color: #fff;
   text-decoration: none;
-  background-color: transparent;
 }
 
-.navbar-brand:hover,
 .nav-link:hover,
 .nav-item a:hover,
 .active {
+  text-decoration: underline;
+  color: #f7f4ea;
+}
+.dropdown-menu.show {
+  background-color: #80a1d4;
+  color: #f7f4ea;
+}
+
+.dropdown-menu.show:hover {
+  background-color: #80a1d4;
+}
+
+.dropdown-menu {
+  margin: 0;
+  border: 0;
+}
+
+.navbar-dark,
+.navbar-brand {
+  color: #fff;
+  text-align: right;
+}
+
+.dropdown-item {
+  text-align: right;
+  color: #f7f4ea;
+  padding: 0.25rem 1.5rem;
+}
+
+.dropdown-item.active {
+  background-color: #80a1d4;
+  color: #f7f4ea;
+  text-decoration: underline;
+}
+
+.dropdown-item:hover {
+  background-color: #80a1d4;
   text-decoration: underline;
   color: #f7f4ea;
 }
@@ -112,6 +149,13 @@ a {
   padding-bottom: 40px;
 }
 
+/* .shiatsu-img {
+  width: 50%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+} */
+
 /* About Shin Tai  */
 
 .shintai-section {
@@ -134,9 +178,9 @@ a {
 
 /* About Me  */
 
-.about-me {
+/* .about-me {
   padding-bottom: 40px;
-}
+} */
 
 /* Pricing  */
 .price-section {
