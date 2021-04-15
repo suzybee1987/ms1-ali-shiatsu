@@ -192,7 +192,8 @@ a {
 }
 
 .youtube {
-  padding: 20px 0;
+  vertical-align:bottom;
+  width: 50%;
 }
 
 /* Reviews  */
@@ -203,6 +204,10 @@ a {
 
 .review p {
   font-size: 70%;
+}
+.review {
+  max-width: 90%;
+  justify-content: center;
 }
 
 /* Find  */
@@ -261,22 +266,17 @@ footer {
 /* contact me  */
 
 #hero-contact {
-  height: 578px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-#hero-contact-image {
-  height: 578px;
-  width: 100%;
-  background: url("/assets/images/laurent-gence-lX7-dfIaeUc-unsplash.jpg")
-    no-repeat center center fixed;
+  height: 100vh;
+  padding-top: 100px;
+  background: url("../images/laurent-gence-lX7-dfIaeUc-unsplash.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  z-index: 100;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-position: center center;
 }
 
 .contact-hero {
