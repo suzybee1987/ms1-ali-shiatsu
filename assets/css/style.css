@@ -264,6 +264,9 @@ footer {
 }
 
 /* contact me  */
+h2.contact {
+  text-decoration: underline;
+}
 
 #hero-contact {
   height: 100vh;
@@ -293,6 +296,23 @@ footer {
   background-color: #f7f4ea;
 }
 
+
 btn:hover {
-  color: green;
+  text-decoration: underline;
+}
+
+.contact-form {
+  margin-top: 50px;
+  margin-left: 150px;
+  position: relative;
+  min-height: 400px;
+  padding: 10px;
+  width: 35%;
+}
+
+.jumbo-contact {
+  padding: 10px 15px;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5em;
 }
