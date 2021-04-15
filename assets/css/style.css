@@ -170,6 +170,7 @@ a {
   color: #f7f4ea;
   border-color: #f5f4f4;
   border-width: 2px;
+  border: transparent;
 }
 
 .shintai-card li {
@@ -178,9 +179,9 @@ a {
 
 /* About Me  */
 
-/* .about-me {
-  padding-bottom: 40px;
-} */
+.card.about-me {
+  border: transparent;
+}
 
 /* Pricing  */
 .price-section {
@@ -189,6 +190,11 @@ a {
   background-color: #c0b9dd;
   color: #f7f4ea;
   text-align: center;
+}
+
+.pricing {
+  background-color: #f7f4ea;
+  color: #c0b9dd;
 }
 
 .youtube {
