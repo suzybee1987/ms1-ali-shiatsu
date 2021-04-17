@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Space+Grotesk:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto&display=swap');
+
 /* 
-font-family: 'Roboto', sans-serif;
-font-family: 'Space Grotesk', sans-serif; */
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
 
 /* Body  */
 html,
@@ -15,21 +16,14 @@ body {
 }
 
 h1 {
-  font-family: "Space Grotesk", sans-serif;
-  font-weight: 600;
-  background-color: #f7f4ea;
-  border-radius: 0.4rem;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: underline;
+  font-weight: 300;
 }
 
 h3 {
   text-decoration: underline;
-  font-family: "Space Grotesk", sans-serif;
-}
-
-h4 {
-  text-decoration: underline;
-  font-size: 1.7em;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding-bottom: 20px;
   padding-top: 20px;
   text-align: center;
@@ -51,7 +45,7 @@ nav {
 .nav-item,
 .navbar {
   color: #fff;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: 'Open Sans', sans-serif
   font-weight: 400;
   font-size: 1em;
 }
@@ -100,6 +94,10 @@ a {
   padding: 0.25rem 1.5rem;
 }
 
+a.dropdown-item {
+    background-color: #537bb9;
+}
+
 .dropdown-item.active {
   background-color: #80a1d4;
   color: #f7f4ea;
@@ -110,6 +108,9 @@ a {
   background-color: #80a1d4;
   text-decoration: underline;
   color: #f7f4ea;
+}
+ul.navbar-nav.navbar-brand {
+    background-color: #80a1d4;
 }
 
 /* hero image */
@@ -127,33 +128,28 @@ a {
   position: relative;
   background-position: top right;
 }
-.jumbotron {
-  border-radius: 0.5rem;
-}
+
 .jumbotron-index {
-  margin-top: 10px;
-  margin-left: 50px;
+  margin-top: 7%;
+  margin-left: 7%;
   position: absolute;
   text-align: center;
   padding: 2rem 1rem;
-  margin-bottom: 2rem;
   background-color: rgba(245, 244, 244, 0.8);
+  border-radius: 0.5rem;
 }
-.jumbotron h1 {
+.display-4 {
   text-decoration: underline;
   text-decoration-thickness: 3px;
+  border-radius: 0.5rem;
 }
+
 
 /* About Shiatsu */
 
-/* .shiatsu-section {
-  padding-bottom: 40px;
-} */
-
 .shiatsu img {
-  width: 60%;
+  width: 55%;
   height: auto;
-  padding-bottom: 20px;
 }
 
 .shiatsu {
@@ -184,11 +180,11 @@ a {
 /* About Me  */
 
 section#about-me {
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .about-me p {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .about-me img {
@@ -211,7 +207,7 @@ section#about-me {
 } */
 
 .youtube {
-  vertical-align:bottom;
+  vertical-align: bottom;
   width: 50%;
 }
 
@@ -228,15 +224,18 @@ section#about-me {
 .review {
   margin-right: 0;
   max-width: 300px;
-
 }
 
 /* Find  */
 
 .find-me {
-  padding-bottom: 40px;
   background-color: #75c9c8;
   color: #f7f4ea;
+  padding-bottom: 40px;
+}
+
+.find-me h3 {
+  padding-bottom: 40px;
 }
 
 /* Footer  */
@@ -287,10 +286,6 @@ footer {
 
 /* contact me  */
 
-h2.contact {
-  text-decoration: underline;
-}
-
 #hero-contact {
   height: 95vh;
   padding-top: 100px;
@@ -320,7 +315,6 @@ h2.contact {
   background-color: #f7f4ea;
 }
 
-
 btn:hover {
   text-decoration: underline;
 }
@@ -328,12 +322,10 @@ btn:hover {
 .contact-form {
   margin-left: 10%;
   margin-right: 10%;
-  margin-top:1%;
-  /* margin-bottom: %; */
+  margin-top: 1%;
   position: relative;
-  min-height: 400px;
   padding: 10px;
-  background:rgba(245, 244, 244, 0.8);
+  background: rgba(245, 244, 244, 0.8);
   border-radius: 0.5rem;
   max-width: 500px;
 }
