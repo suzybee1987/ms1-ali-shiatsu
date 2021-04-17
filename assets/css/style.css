@@ -183,6 +183,12 @@ a {
   border: transparent;
 }
 
+.about-me img {
+  width: 60%;
+  border-radius: 0.5em;
+  padding-bottom: 20px;
+}
+
 /* Pricing  */
 .price-section {
   padding-bottom: 40px;
