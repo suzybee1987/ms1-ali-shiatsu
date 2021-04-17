@@ -28,7 +28,7 @@ h3 {
 
 h4 {
   text-decoration: underline;
-  font-size: 1.5em;
+  font-size: 1.7em;
   font-family: "Space Grotesk", sans-serif;
   padding-bottom: 20px;
   padding-top: 20px;
@@ -127,7 +127,9 @@ a {
   position: relative;
   background-position: top right;
 }
-
+.jumbotron {
+  border-radius: 0.5rem;
+}
 .jumbotron-index {
   margin-top: 10px;
   margin-left: 50px;
@@ -136,7 +138,6 @@ a {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: rgba(245, 244, 244, 0.8);
-  border-radius: 0.5rem;
 }
 .jumbotron h1 {
   text-decoration: underline;
@@ -145,16 +146,19 @@ a {
 
 /* About Shiatsu */
 
-.shiatsu-section {
+/* .shiatsu-section {
   padding-bottom: 40px;
+} */
+
+.shiatsu img {
+  width: 60%;
+  height: auto;
+  padding-bottom: 20px;
 }
 
-/* .shiatsu-img {
-  width: 50%;
-  height: auto;
-  align-items: center;
-  justify-content: center;
-} */
+.shiatsu {
+  padding-bottom: 40px;
+}
 
 /* About Shin Tai  */
 
@@ -179,14 +183,17 @@ a {
 
 /* About Me  */
 
-.card.about-me {
-  border: transparent;
+section#about-me {
+    padding-bottom: 40px;
+}
+
+.about-me p {
+    margin-top: 30px;
 }
 
 .about-me img {
   width: 60%;
-  border-radius: 0.5em;
-  padding-bottom: 20px;
+  height: auto;
 }
 
 /* Pricing  */
@@ -198,10 +205,10 @@ a {
   text-align: center;
 }
 
-.pricing {
+/* .pricing {
   background-color: #f7f4ea;
   color: #c0b9dd;
-}
+} */
 
 .youtube {
   vertical-align:bottom;
@@ -220,6 +227,7 @@ a {
 }
 .review {
   margin-right: 0;
+  max-width: 300px;
 
 }
 
@@ -235,6 +243,7 @@ a {
 
 footer {
   background-color: #80a1d4;
+  /* z-index: 100; */
 }
 
 .contact-footer {
@@ -283,7 +292,7 @@ h2.contact {
 }
 
 #hero-contact {
-  height: 100vh;
+  height: 95vh;
   padding-top: 100px;
   background: url("../images/laurent-gence-lX7-dfIaeUc-unsplash.jpg");
   -webkit-background-size: cover;
@@ -303,6 +312,7 @@ h2.contact {
 .reset {
   color: #f7f4ea;
   background-color: #81c5df;
+  margin-bottom: 10px;
 }
 
 .submit {
@@ -316,18 +326,29 @@ btn:hover {
 }
 
 .contact-form {
-  margin-top: 50px;
-  margin-left: 150px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top:1%;
+  /* margin-bottom: %; */
   position: relative;
   min-height: 400px;
   padding: 10px;
-  width: 35%;
+  background:rgba(245, 244, 244, 0.8);
+  border-radius: 0.5rem;
+  max-width: 500px;
 }
 
 .jumbo-contact {
   padding: 10px 15px;
   width: 100%;
   height: 100%;
-  border-radius: 0.5em;
 }
 
+.textbox {
+  max-width: 100%;
+  /* margin: 15px; */
+}
+
+.col-form-label {
+  padding: 5px;
+}
