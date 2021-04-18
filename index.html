@@ -146,20 +146,22 @@
           </div>
         </div>
         <!-- /Show only on large devices  -->
+        <!-- Bootstrap Accordian  -->
         <!-- Show only on md,sm devices  -->
         <div class="d-md-block d-lg-none">
           <div id="accordion">
-            <div class="card">
-              <div class="card-header" id="headingOne">
+            <div class="card card-shintai">
+              <div class="card-header card-header-shintai" id="headingShinTai">
                 <h5 class="mb-0">
-                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                    aria-controls="collapseOne">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseShinTai" aria-expanded="true"
+                    aria-controls="collapseShinTai">
                     History
                   </button>
                 </h5>
               </div>
-              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body">
+              <div id="collapseShinTai" class="collapse show" aria-labelledby="headingShinTai
+              " data-parent="#accordion">
+                <div class="card-body card-body-shintai">
                   <p>
                     Shin-Tai is a body of work evolved from Shiatsu developed by Saul Goodman over 40 years ago. Shin
                     Tai emphasises the flow of the two primary meridians: the Governing Vessel (along the spine) and
@@ -169,17 +171,17 @@
                 </div>
               </div>
             </div>
-            <div class="card">
-              <div class="card-header" id="headingTwo">
+            <div class="card card-shintai">
+              <div class="card-header" id="headingShinTai2">
                 <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="false" aria-controls="collapseTwo">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseShinTai2"
+                    aria-expanded="false" aria-controls="collapseShinTai2">
                     Principle of Shin Tai
                   </button>
                 </h5>
               </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                <div class="card-body">
+              <div id="collapseShinTai2" class="collapse" aria-labelledby="headingShinTai2" data-parent="#accordion">
+                <div class="card-body card-body-shintai">
                   <p>The basic principle is to create space and restore motion and this leads to the recovery of life
                     force
                     (lost energy) in the body. Life force gets trapped in the body from emotional, physical and
@@ -194,17 +196,17 @@
                 </div>
               </div>
             </div>
-            <div class="card">
-              <div class="card-header" id="headingThree">
+            <div class="card card-shintai">
+              <div class="card-header" id="headingShinTai3">
                 <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
-                    aria-expanded="false" aria-controls="collapseThree">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseShinTai3"
+                    aria-expanded="false" aria-controls="collapseShinTai3">
                     Benefits of Shin Tai:
                   </button>
                 </h5>
               </div>
-              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                <div class="card-body">
+              <div id="collapseShinTai3" class="collapse" aria-labelledby="headingShinTai3" data-parent="#accordion">
+                <div class="card-body card-body-shintai">
                   <ul>
                     <li>it is deeply relaxing and helps improve sleep patterns</li>
                     <li>improves energy and vitality </li>
@@ -220,6 +222,7 @@
               </div>
             </div>
           </div>
+          <!-- /Bootstrap Accordian  -->
         </div>
       </div>
       <!-- /Show only on md,sm devices  -->
@@ -227,7 +230,7 @@
     <!-- /About Shin Tai -->
 
     <!-- About Me -->
-    <section id="about-me" class="about-me text-center">
+    <section id="about-me" class="about-me">
       <div class="container">
         <div class="row my-3">
           <div class="col-12 text-center">
@@ -268,65 +271,70 @@
         <!-- /Show only on large devices  -->
         <!-- Show only on md,sm devices  -->
         <div class="d-md-block d-lg-none">
-          <img src="assets/images/Ali-massage.jpg" alt="Ali giving massage" class="about-me-img rounded">
-          <p>
+          <img src="assets/images/Ali-massage.jpg" alt="Ali giving massage" class="about-me-img rounded text-center">
+          <p class="text-center">
             I work with a variety of Shin Tai techniques which include elements of Shiatsu, fascial unwinding,
             stillness, Central Channel release, passive structural adjustments, Cranio-Sacral techniques, and
             chakra work.</p>
-        </div>
-        <div id="accordion2">
-          <div class="card">
-            <div class="card-header" id="headingMe">
-              <h5 class="mb-0">
-                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseMe" aria-expanded="true"
-                  aria-controls="collapseMe">
-                  My journey
-                </button>
-              </h5>
-            </div>
-            <div id="collapseMe" class="collapse show" aria-labelledby="headingMe" data-parent="#accordion">
-              <div class="card-body">
-                <p>
-                  My journey with Shiatsu began as a result of on-going pain from a whiplash injury received some ten
-                  years before. I was
-                  a keen yoga and Tai Chi student as this gave me some relief but not on a long-term basis. I started to
-                  accept the pain
-                  and restricted movement within my neck and shoulders until a chance conversation with a Shiatsu
-                  Practitioner. After a
-                  series of treatments and I began to feel a sense of ease and understanding of my own body and wanted
-                  to know more. I
-                  knew without a doubt that I wanted to share this bodywork and its benefits with others.</p>
+            <!-- Bootstrap Accordian  -->
+          <div class="accordian" id="accordionMe">
+            <div class="card card-me">
+              <div class="card-header card-header-me" id="headingMe">
+                <h5 class="mb-0">
+                  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseMe"
+                    aria-expanded="true" aria-controls="collapseMe">
+                    My journey
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseMe" class="collapse show" aria-labelledby="headingMe" data-parent="#accordionMe">
+                <div class="card-body card-body-me">
+                  <p>
+                    My journey with Shiatsu began as a result of on-going pain from a whiplash injury received some ten
+                    years before. I was
+                    a keen yoga and Tai Chi student as this gave me some relief but not on a long-term basis. I started
+                    to
+                    accept the pain
+                    and restricted movement within my neck and shoulders until a chance conversation with a Shiatsu
+                    Practitioner. After a
+                    series of treatments and I began to feel a sense of ease and understanding of my own body and wanted
+                    to know more. I
+                    knew without a doubt that I wanted to share this bodywork and its benefits with others.</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="headingTwoMe">
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwoMe"
-                  aria-expanded="false" aria-controls="collapseTwoMe">
-                  My Education
-                </button>
-              </h5>
-            </div>
-            <div id="collapseTwoMe" class="collapse" aria-labelledby="headingTwoMe" data-parent="#accordion">
-              <div class="card-body">
-                <p>I enrolled and graduated from the Shiatsu College, Manchester branch in 2009. I am a registered
-                  practitioner with the
-                  Shiatsu Society. After graduating I have continued my professional development, undertaking workshops
-                  by leading
-                  bodywork practitioners. In 2013, I began my Shiatsu Shin Tai journey with Kindy Kaur, a leading
-                  teacher of Shin Tai in
-                  the UK. Since then I have regularly attended workshops learning the principles of Shin Tai. I see Shin
-                  Tai as a practice
-                  to enable us to get in touch with our own true self and see our own true potential. My work is now
-                  predominately
-                  influenced by Shin Tai.
-                </p>
+            <div class="card card-me">
+              <div class="card-header card-header-me" id="headingTwoMe">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwoMe" aria-expanded="false"
+                    aria-controls="collapseTwoMe">
+                    My Education
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwoMe" class="collapse" aria-labelledby="headingTwoMe" data-parent="#accordionMe">
+                <div class="card-body card-body-me">
+                  <p>I enrolled and graduated from the Shiatsu College, Manchester branch in 2009. I am a registered
+                    practitioner with the
+                    Shiatsu Society. After graduating I have continued my professional development, undertaking
+                    workshops
+                    by leading
+                    bodywork practitioners. In 2013, I began my Shiatsu Shin Tai journey with Kindy Kaur, a leading
+                    teacher of Shin Tai in
+                    the UK. Since then I have regularly attended workshops learning the principles of Shin Tai. I see
+                    Shin
+                    Tai as a practice
+                    to enable us to get in touch with our own true self and see our own true potential. My work is now
+                    predominately
+                    influenced by Shin Tai.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- /Bootstrap Accordian  -->
       <!-- /Show only on md,sm devices  -->
     </section>
     <!-- /About Me -->

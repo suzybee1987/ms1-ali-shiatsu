@@ -188,27 +188,31 @@ section#about-me {
 
 
 /* Md,sm devices  */
-
-#module {
-  width: 500px;
+.card.card-shintai {
+  border: 0;
 }
 
-#module #collapseExample.collapse:not(.show) {
-  display: block;
-  height: 3rem;
-  overflow: hidden;
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.card-body-shintai {
+  color: #75C9C8;
+  background-color: #f7f4ea;
+
 }
 
-#module #collapseExample.collapsing {
-  height: 3rem;
+.card-header.card-header-shintai {
+  background-color: #45B0AE;
+  color: #f7f4ea;
 }
 
-#module a.collapsed::after  {
-    content: '+ Show More';
+.card-header .btn-link {
+  color: #f7f4ea;
+  text-decoration: none;
 }
-
-#module a:not(.collapsed)::after {
-    content: '- Show Less';
+.card-header .btn-link:hover {
+  text-decoration: underline;
 }
 
 /* Footer  */
