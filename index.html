@@ -17,7 +17,7 @@
 <body data-spy="scroll" data-target="#navbar1" data-offset="100">
   <!-- Nav Header -->
   <header>
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
         <div class="col">
           <nav id="navbar1" class="navbar navbar-expand-md fixed-top navbar-dark">
@@ -30,26 +30,11 @@
 
             <div id="navbarToggle" class="collapse navbar-collapse justify-content-end">
               <ul class="navbar-nav navbar-brand">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Shiatsu
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item shiatsu" href="#shiatsu">About Shiatsu</a>
-                    <a class="dropdown-item shintai" href="#shintai">About Shin Tai</a>
-                  </div>
+                <li class="nav-item">
+                  <a class="nav-link" href="#shiatsu">Shiatsu</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    About Me & Services
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
-                    <a class="dropdown-item about-me" href="#about-me">About Me</a>
-                    <a class="dropdown-item price" href="#price">Price</a>
-                    <a class="dropdown-item services" href="#services">Services</a>
-                  </div>
+                <li>
+                  <a class="nav-link" href="#about-me">About Me & Services</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#reviews">Reviews</a>
@@ -72,9 +57,11 @@
   <!-- Callout -->
   <div class="container-fluid hero">
     <div class="row">
-      <div class="jumbotron-index">
-        <h1 class="display-4 rounded">Shiatsu Shin Tai</h1>
-        <p class="lead">Professional Practitioner Ali Melville</p>
+      <div class="col-sm-6">
+        <div class="jumbotron-index">
+          <h1 class="diplay-5">Shiatsu Shin Tai</h1>
+          <p class="lead">Professional Practitioner Ali Melville</p>
+        </div>
       </div>
     </div>
   </div>
@@ -111,61 +98,131 @@
     </section>
     <!-- /About Shiatsu -->
     <!-- About Shin Tai -->
-    <section class="shintai-section">
+    <section id="shintai" class="shintai-section">
       <div class="container">
         <div class="row my-3">
           <div class="col-12 text-center">
-            <div id="shintai">
-              <h3>About Shin Tai</h3>
+            <h3>About Shin Tai</h3>
+          </div>
+        </div>
+        <!-- Show only on large devices  -->
+        <div class="d-none d-md-none d-lg-block">
+          <div class="row justify-content-around my-3">
+            <div class="col-md-6 text-center">
+              <p>
+                Shin-Tai is a body of work evolved from Shiatsu developed by Saul Goodman over 40 years ago. Shin
+                Tai emphasises the flow of the two primary meridians: the Governing Vessel (along the spine) and
+                Conception Vessel (up the front of the body). Together with the Central Channel, these are the core
+                energetic channels
+                from where the classical meridians develop.</p>
+              <p>
+                The basic principle is to create space and restore motion and this leads to the recovery of life force
+                (lost energy) in the body. Life force gets trapped in the body from emotional, physical and
+                psychological trauma and everyday stresses thereby creating patterns of behaviour. Shin Tai touches
+                on a very deep level looking to address these underlying energetic patterns that are utilising an
+                individual’s energy in ways that do not necessarily support them in the present moment. </p>
+              <p>Shin Tai is
+                a
+                journey of self-discovery that enables individuals to have more energy, clarity and begin to make
+                choices in life that brings them the most joy.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <p>
+                Some of the benefits of Shin Tai are:
+              <ul>
+                <li>it is deeply relaxing and helps improve sleep patterns</li>
+                <li>improves energy and vitality </li>
+                <li>relieves stress, tension and anxiety</li>
+                <li>some pain relief</li>
+                <li>improves joint mobility</li>
+                <li>improves digestion, immunity and menstrual health</li>
+                <li>offers support during life changes</li>
+                <li>increased motivation and creativity </li>
+                <li>long term benefits and preventative care</li>
+              </ul>
+              </p>
             </div>
           </div>
         </div>
-        <div class="row justify-content-around my-3">
-          <div class="col-md-6 text-center">
-            <div class="card shintai-card h-100">
-              <div class="card-body">
-                <p>
-                  Shin-Tai is a body of work evolved from Shiatsu developed by Saul Goodman over 40 years ago. Shin
-                  Tai emphasises the flow of the two primary meridians: the Governing Vessel (along the spine) and
-                  Conception Vessel (up the front of the body). Together with the Central Channel, these are the core
-                  energetic channels
-                  from where the classical meridians develop.</p>
-                <p>
-                  The basic principle is to create space and restore motion and this leads to the recovery of life force
-                  (lost energy) in the body. Life force gets trapped in the body from emotional, physical and
-                  psychological trauma and everyday stresses thereby creating patterns of behaviour. Shin Tai touches
-                  on a very deep level looking to address these underlying energetic patterns that are utilising an
-                  individual’s energy in ways that do not necessarily support them in the present moment. </p>
-                <p>Shin Tai is
-                  a
-                  journey of self-discovery that enables individuals to have more energy, clarity and begin to make
-                  choices in life that brings them the most joy.
-                </p>
+        <!-- /Show only on large devices  -->
+        <!-- Show only on md,sm devices  -->
+        <div class="d-md-block d-lg-none">
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                    aria-controls="collapseOne">
+                    History
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  <p>
+                    Shin-Tai is a body of work evolved from Shiatsu developed by Saul Goodman over 40 years ago. Shin
+                    Tai emphasises the flow of the two primary meridians: the Governing Vessel (along the spine) and
+                    Conception Vessel (up the front of the body). Together with the Central Channel, these are the core
+                    energetic channels
+                    from where the classical meridians develop.</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="card shintai-card h-100">
-              <div class="card-body">
-                <p>
-                  Some of the benefits of Shin Tai are:
-                <ul>
-                  <li>it is deeply relaxing and helps improve sleep patterns</li>
-                  <li>improves energy and vitality </li>
-                  <li>relieves stress, tension and anxiety</li>
-                  <li>some pain relief</li>
-                  <li>improves joint mobility</li>
-                  <li>improves digestion, immunity and menstrual health</li>
-                  <li>offers support during life changes</li>
-                  <li>increased motivation and creativity </li>
-                  <li>long term benefits and preventative care</li>
-                </ul>
-                </p>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    Principle of Shin Tai
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  <p>The basic principle is to create space and restore motion and this leads to the recovery of life
+                    force
+                    (lost energy) in the body. Life force gets trapped in the body from emotional, physical and
+                    psychological trauma and everyday stresses thereby creating patterns of behaviour. Shin Tai touches
+                    on a very deep level looking to address these underlying energetic patterns that are utilising an
+                    individual’s energy in ways that do not necessarily support them in the present moment. </p>
+                  <p>Shin Tai is
+                    a
+                    journey of self-discovery that enables individuals to have more energy, clarity and begin to make
+                    choices in life that brings them the most joy.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                    aria-expanded="false" aria-controls="collapseThree">
+                    Benefits of Shin Tai:
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  <ul>
+                    <li>it is deeply relaxing and helps improve sleep patterns</li>
+                    <li>improves energy and vitality </li>
+                    <li>relieves stress, tension and anxiety</li>
+                    <li>some pain relief</li>
+                    <li>improves joint mobility</li>
+                    <li>improves digestion, immunity and menstrual health</li>
+                    <li>offers support during life changes</li>
+                    <li>increased motivation and creativity </li>
+                    <li>long term benefits and preventative care</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- /Show only on md,sm devices  -->
     </section>
     <!-- /About Shin Tai -->
 
@@ -177,35 +234,100 @@
             <h3>About Me</h3>
           </div>
         </div>
-        <div class="row my-3">
-          <div class="col-md-6">
-            <img src="assets/images/Ali-massage.jpg" alt="Ali giving massage" class="about-me-img rounded">
-            <p>
-              I work with a variety of Shin Tai techniques which include elements of Shiatsu, fascial unwinding,
-              stillness, Central Channel release, passive structural adjustments, Cranio-Sacral techniques, and
-              chakra work.</p>
+        <!-- Show only on large devices  -->
+        <div class="d-none d-md-none d-lg-block">
+          <div class="row my-3">
+            <div class="col-md-6">
+              <img src="assets/images/Ali-massage.jpg" alt="Ali giving massage" class="about-me-img rounded">
+              <p>
+                I work with a variety of Shin Tai techniques which include elements of Shiatsu, fascial unwinding,
+                stillness, Central Channel release, passive structural adjustments, Cranio-Sacral techniques, and
+                chakra work.</p>
+            </div>
+            <div class="col-md-6">
+              <p>
+                My journey with Shiatsu began as a result of on-going pain from a whiplash injury received some ten
+                years before. I was a keen yoga and Tai Chi student as this gave me some relief but not on a long-term
+                basis. I started to accept the pain and restricted movement within my neck and shoulders until a
+                chance conversation with a Shiatsu Practitioner. After a series of treatments and I began to feel a
+                sense of ease and understanding of my own body and wanted to know more. I knew without a doubt that I
+                wanted to share this bodywork and its benefits with others.
+              </p>
+              <p>
+                I enrolled and graduated from the Shiatsu College, Manchester branch in 2009. I am a registered
+                practitioner with the Shiatsu Society. After graduating I have continued my professional development,
+                undertaking workshops by leading bodywork practitioners. In 2013, I began my Shiatsu Shin Tai journey
+                with Kindy Kaur, a leading teacher of Shin Tai in the UK. Since then I have regularly attended
+                workshops learning the principles of Shin Tai. I see Shin Tai as a practice to enable us to get in
+                touch with our own true self and see our own true potential. My work is now predominately influenced
+                by Shin Tai.
+              </p>
+            </div>
           </div>
-          <div class="col-md-6">
-            <p>
-              My journey with Shiatsu began as a result of on-going pain from a whiplash injury received some ten
-              years before. I was a keen yoga and Tai Chi student as this gave me some relief but not on a long-term
-              basis. I started to accept the pain and restricted movement within my neck and shoulders until a
-              chance conversation with a Shiatsu Practitioner. After a series of treatments and I began to feel a
-              sense of ease and understanding of my own body and wanted to know more. I knew without a doubt that I
-              wanted to share this bodywork and its benefits with others.
-            </p>
-            <p>
-              I enrolled and graduated from the Shiatsu College, Manchester branch in 2009. I am a registered
-              practitioner with the Shiatsu Society. After graduating I have continued my professional development,
-              undertaking workshops by leading bodywork practitioners. In 2013, I began my Shiatsu Shin Tai journey
-              with Kindy Kaur, a leading teacher of Shin Tai in the UK. Since then I have regularly attended
-              workshops learning the principles of Shin Tai. I see Shin Tai as a practice to enable us to get in
-              touch with our own true self and see our own true potential. My work is now predominately influenced
-              by Shin Tai.
-            </p>
+        </div>
+        <!-- /Show only on large devices  -->
+        <!-- Show only on md,sm devices  -->
+        <div class="d-md-block d-lg-none">
+          <img src="assets/images/Ali-massage.jpg" alt="Ali giving massage" class="about-me-img rounded">
+          <p>
+            I work with a variety of Shin Tai techniques which include elements of Shiatsu, fascial unwinding,
+            stillness, Central Channel release, passive structural adjustments, Cranio-Sacral techniques, and
+            chakra work.</p>
+        </div>
+        <div id="accordion2">
+          <div class="card">
+            <div class="card-header" id="headingMe">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseMe" aria-expanded="true"
+                  aria-controls="collapseMe">
+                  My journey
+                </button>
+              </h5>
+            </div>
+            <div id="collapseMe" class="collapse show" aria-labelledby="headingMe" data-parent="#accordion">
+              <div class="card-body">
+                <p>
+                  My journey with Shiatsu began as a result of on-going pain from a whiplash injury received some ten
+                  years before. I was
+                  a keen yoga and Tai Chi student as this gave me some relief but not on a long-term basis. I started to
+                  accept the pain
+                  and restricted movement within my neck and shoulders until a chance conversation with a Shiatsu
+                  Practitioner. After a
+                  series of treatments and I began to feel a sense of ease and understanding of my own body and wanted
+                  to know more. I
+                  knew without a doubt that I wanted to share this bodywork and its benefits with others.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwoMe">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwoMe"
+                  aria-expanded="false" aria-controls="collapseTwoMe">
+                  My Education
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwoMe" class="collapse" aria-labelledby="headingTwoMe" data-parent="#accordion">
+              <div class="card-body">
+                <p>I enrolled and graduated from the Shiatsu College, Manchester branch in 2009. I am a registered
+                  practitioner with the
+                  Shiatsu Society. After graduating I have continued my professional development, undertaking workshops
+                  by leading
+                  bodywork practitioners. In 2013, I began my Shiatsu Shin Tai journey with Kindy Kaur, a leading
+                  teacher of Shin Tai in
+                  the UK. Since then I have regularly attended workshops learning the principles of Shin Tai. I see Shin
+                  Tai as a practice
+                  to enable us to get in touch with our own true self and see our own true potential. My work is now
+                  predominately
+                  influenced by Shin Tai.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <!-- /Show only on md,sm devices  -->
     </section>
     <!-- /About Me -->
 
@@ -219,7 +341,7 @@
         </div>
         <div class="row my-3">
           <div class="col-md-6 text-center">
-            <h3 class="pricing">Each session costs £60 per hour</h3>
+            <h4 class="pricing">Each session costs £60 per hour</h4>
             <p>
               The session takes place on a body cushion on a futon at floor level and you remain fully clothed
               throughout. Please wear loose and comfortable clothing, ideally a long-sleeved t-shirt, jogging trousers
@@ -262,7 +384,7 @@
         </div>
         <div class="row text-center my-3">
           <div class="col-md-4">
-            <div class="card w-30 review h-100">
+            <div class="card w-30 mx-auto review h-100">
               <div class="card-header">
                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                   class="fas fa-star"></i><i class="fas fa-star"></i> Changed my life

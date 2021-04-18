@@ -11,7 +11,7 @@ body {
   color: #80a1d4;
   position: relative;
   padding: 0px;
-  margin: 0;
+  margin: 0px;
   overflow-x: hidden;
 }
 
@@ -29,8 +29,8 @@ h3 {
   text-align: center;
 }
 
-p {
-  font-size: 90%;
+h4 {
+  text-decoration: underline;
 }
 
 /* Navigation */
@@ -45,7 +45,7 @@ nav {
 .nav-item,
 .navbar {
   color: #fff;
-  font-family: 'Open Sans', sans-serif
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 1em;
 }
@@ -57,29 +57,11 @@ nav {
   padding: 8px 16px;
 }
 
-a {
-  color: #fff;
-  text-decoration: none;
-}
-
 .nav-link:hover,
 .nav-item a:hover,
 .active {
   text-decoration: underline;
   color: #f7f4ea;
-}
-.dropdown-menu.show {
-  background-color: #80a1d4;
-  color: #f7f4ea;
-}
-
-.dropdown-menu.show:hover {
-  background-color: #80a1d4;
-}
-
-.dropdown-menu {
-  margin: 0;
-  border: 0;
 }
 
 .navbar-dark,
@@ -88,27 +70,6 @@ a {
   text-align: right;
 }
 
-.dropdown-item {
-  text-align: right;
-  color: #f7f4ea;
-  padding: 0.25rem 1.5rem;
-}
-
-a.dropdown-item {
-    background-color: #537bb9;
-}
-
-.dropdown-item.active {
-  background-color: #80a1d4;
-  color: #f7f4ea;
-  text-decoration: underline;
-}
-
-.dropdown-item:hover {
-  background-color: #80a1d4;
-  text-decoration: underline;
-  color: #f7f4ea;
-}
 ul.navbar-nav.navbar-brand {
     background-color: #80a1d4;
 }
@@ -126,12 +87,11 @@ ul.navbar-nav.navbar-brand {
   justify-content: center;
   align-items: center;
   position: relative;
-  background-position: top right;
+  background-position: top center;
 }
 
 .jumbotron-index {
-  margin-top: 7%;
-  margin-left: 7%;
+  margin: 20px;
   position: absolute;
   text-align: center;
   padding: 2rem 1rem;
@@ -163,18 +123,6 @@ ul.navbar-nav.navbar-brand {
   padding-top: 10px;
   background-color: #75c9c8;
   color: #f7f4ea;
-}
-
-.shintai-card {
-  background-color: #75c9c8;
-  color: #f7f4ea;
-  border-color: #f5f4f4;
-  border-width: 2px;
-  border: transparent;
-}
-
-.shintai-card li {
-  font-size: 90%;
 }
 
 /* About Me  */
@@ -238,6 +186,31 @@ section#about-me {
   padding-bottom: 40px;
 }
 
+
+/* Md,sm devices  */
+
+#module {
+  width: 500px;
+}
+
+#module #collapseExample.collapse:not(.show) {
+  display: block;
+  height: 3rem;
+  overflow: hidden;
+}
+
+#module #collapseExample.collapsing {
+  height: 3rem;
+}
+
+#module a.collapsed::after  {
+    content: '+ Show More';
+}
+
+#module a:not(.collapsed)::after {
+    content: '- Show Less';
+}
+
 /* Footer  */
 
 footer {
@@ -269,6 +242,11 @@ footer {
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .sm-links li a i:hover {
