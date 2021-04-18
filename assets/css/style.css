@@ -132,10 +132,11 @@ section#about-me {
 }
 
 .about-me p {
-  margin-top: 30px;
+  margin-top: ;
 }
 
-.about-me img {
+img.about-me-img.rounded {
+  margin-bottom: 30px;
   width: 60%;
   height: auto;
 }
@@ -148,11 +149,6 @@ section#about-me {
   color: #f7f4ea;
   text-align: center;
 }
-
-/* .pricing {
-  background-color: #f7f4ea;
-  color: #c0b9dd;
-} */
 
 .youtube {
   vertical-align: bottom;
@@ -234,7 +230,6 @@ section#about-me {
 
 footer {
   background-color: #80a1d4;
-  /* z-index: 100; */
 }
 
 .contact-footer {
@@ -274,11 +269,12 @@ a {
 }
 
 .sm-link-shiatsu li img {
-  width: 50px;
+  width: 60px;
   height: auto;
   text-align: left;
   align-items: center;
-  margin-top: 15px;
+  margin: 15px 0 0 20px;
+
 }
 
 /* contact me  */
