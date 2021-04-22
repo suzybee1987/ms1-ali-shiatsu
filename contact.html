@@ -9,6 +9,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/images/site.webmanifest">
   <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
   <title>Ali's Shiatsu</title>
 </head>
@@ -32,31 +36,29 @@
   </header>
 
   <section id="hero-contact">
-    <div class="contact-form">
-      <div class="container-fluid jumbo-contact">
+      <div class="container contact-form jumbo-contact">
         <div class="row">
           <div class="col-sm-6">
             <h3 class="contact">Contact Me:</h3>
           </div>
         </div>
-        <form>
+        <form class="needs-validation">
           <div class="form-group row">
             <label for="name" class="col-6 mb-2 col-form-label">Name:</label>
             <div class="col-10">
-              <input type="text" class="form-control" id="name" required>
+              <input type="text" class="form-control form-control-sm" id="name" required>
             </div>
           </div>
           <div class="form-group row">
             <label for="phoneNum" class="col-6 mb-2 col-form-label">Phone number:</label>
             <div class="col-10">
-              <input type="tel" class="form-control" id="phoneNum" required>
+              <input type="tel" class="form-control form-control-sm" id="phoneNum" required>
             </div>
           </div>
           <div class="form-group row">
-
             <label for="email" class="col-6 mb-2 col-form-label">Email:</label>
             <div class="col-10">
-              <input type="email" class="form-control" id="email" required>
+              <input type="email" class="form-control form-control-sm" id="email" required>
             </div>
           </div>
           <div class="form-group row">
@@ -74,28 +76,22 @@
               <!-- Bootstrap Modal -->
               <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Ali says:</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      Thank you!
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                  </div>
+                <div class="modal-content">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Thank you, I'll get back to you as soon as I can.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
               </div>
             </div>
           </div>
         </form>
       </div>
-    </div>
   </section>
 
   <footer class="contact-footer">

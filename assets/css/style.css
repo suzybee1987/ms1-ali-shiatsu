@@ -61,12 +61,12 @@ nav {
 .nav-item a:hover,
 .active {
   text-decoration: underline;
-  color: #f7f4ea;
+  color: #F5F9FD;
 }
 
 .navbar-dark,
 .navbar-brand {
-  color: #fff;
+  color: #F5F9FD;
   text-align: right;
 }
 
@@ -121,18 +121,14 @@ ul.navbar-nav.navbar-brand {
 .shintai-section {
   padding-bottom: 40px;
   padding-top: 10px;
-  background-color: #75c9c8;
-  color: #f7f4ea;
+  background-color: hsl(179, 44%, 62%);
+  color: #F5F9FD;
 }
 
 /* About Me  */
 
 section#about-me {
   padding-bottom: 40px;
-}
-
-.about-me p {
-  margin-top: ;
 }
 
 img.about-me-img.rounded {
@@ -146,7 +142,7 @@ height: auto;
   padding-bottom: 40px;
   padding-top: 10px;
   background-color: #c0b9dd;
-  color: #f7f4ea;
+  color: #F5F9FD;
   text-align: center;
 }
 
@@ -174,7 +170,7 @@ height: auto;
 
 .find-me {
   background-color: #75c9c8;
-  color: #f7f4ea;
+  color: #F5F9FD;
   padding-bottom: 40px;
 }
 
@@ -194,16 +190,16 @@ height: auto;
 }
 .card-body-shintai {
   color: #75C9C8;
-  background-color: #f7f4ea;
+  background-color: #F5F9FD;
 }
 
 .card-header.card-header-shintai {
   background-color: #45B0AE;
-  color: #f7f4ea;
+  color: #F5F9FD;
 }
 
 .card-header .btn-link {
-  color: #f7f4ea;
+  color: #F5F9FD;
   text-decoration: none;
 }
 .card-header .btn-link:hover {
@@ -223,7 +219,7 @@ height: auto;
 
 .card-header.card-header-me {
   background-color: #80A1D4;
-  color: #f7f4ea;
+  color: #F5F9FD;
 }
 
 /* Footer  */
@@ -264,7 +260,7 @@ a {
 }
 
 .sm-links li a i:hover {
-  color: #f7f4ea;
+  color: #F5F9FD;
   text-decoration: underline;
 }
 
@@ -280,17 +276,13 @@ a {
 /* contact me  */
 
 #hero-contact {
-  height: 95vh;
-  padding-top: 100px;
-  background: url("../images/laurent-gence-lX7-dfIaeUc-unsplash.jpg");
+  height: 100vh;
+  background: url("../images/laurent-gence-lX7-dfIaeUc-unsplash.jpg")no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  background-position: center center;
+  padding-top: 100px;
 }
 
 .contact-hero {
@@ -298,20 +290,23 @@ a {
   margin: 0;
 }
 .reset {
-  color: #f7f4ea;
+  color: #F5F9FD;
   background-color: #81c5df;
   margin-bottom: 10px;
 }
 
 .submit {
   color: #81c5df;
-  background-color: #f7f4ea;
+  background-color: #F5F9FD;
 }
 
 btn:hover {
   text-decoration: underline;
 }
-
+form {
+  width: 75%;
+  height: 75%;
+}
 .contact-form {
   margin-left: 10%;
   margin-right: 10%;
@@ -320,13 +315,13 @@ btn:hover {
   padding: 10px;
   background: rgba(245, 244, 244, 0.8);
   border-radius: 0.5rem;
-  max-width: 500px;
+  max-width: 400px;
+  max-height: 600px;
 }
 
 .jumbo-contact {
   padding: 10px 15px;
   width: 100%;
-  height: 100%;
 }
 
 .textbox {
