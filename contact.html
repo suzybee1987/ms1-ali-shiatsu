@@ -4,17 +4,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Business site for Ali Shiatsu Massage" />
+  <meta name="description" content="Business site for Alison Shiatsu Massage" />
   <meta name="keywords" content="shiatsu, shin tai, massage, cheshire, congleton, masseuse" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
   <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
-  <link rel="manifest" href="assets/images/site.webmanifest">
+  <link rel="manifest" href="assets/images/favicon/site.webmanifest" crossorigin="use-credentials">
   <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-  <title>Ali's Shiatsu</title>
+  <title>Alison Melville Shiatsu</title>
 </head>
 
 <body>
@@ -23,7 +24,8 @@
       <div class="row">
         <div class="col">
           <nav class="navbar fixed-top navbar-dark">
-            <a class="navbar-brand" href="index.html">Home<span class="sr-only">(current)</span></a>
+            <a class="navbar-brand" href="index.html"><i class="fas fa-spa"></i><span
+                class="sr-only">(current)</span></a>
             <ul class="navbar-nav">
               <li class="nav-item justify-content-lg-end">
                 <a class="nav-link active" href="contact.html">Contact Me<span class="sr-only">(current)</span></a>
@@ -34,67 +36,53 @@
       </div>
     </div>
   </header>
-
   <section id="hero-contact">
-      <div class="container contact-form jumbo-contact">
-        <div class="row">
-          <div class="col-sm-6">
-            <h3 class="contact">Contact Me:</h3>
+    <div class="container-fluid  contact-form">
+      <form class="needs-validation" novalidate>
+        <div class="form-group row">
+          <div class="col-xs-6">
+            <h5 class="contact">Contact Me:</h5>
           </div>
         </div>
-        <form class="needs-validation">
-          <div class="form-group row">
-            <label for="name" class="col-6 mb-2 col-form-label">Name:</label>
-            <div class="col-10">
-              <input type="text" class="form-control form-control-sm" id="name" required>
-            </div>
+        <div class="form-group row">
+          <label for="name" class="col-xs-12 col-sm-6 col-form-label-sm">Name:</label>
+          <div class="col-12">
+            <input type="text" class="form-control form-control-sm" id="name" required>
           </div>
-          <div class="form-group row">
-            <label for="phoneNum" class="col-6 mb-2 col-form-label">Phone number:</label>
-            <div class="col-10">
-              <input type="tel" class="form-control form-control-sm" id="phoneNum" required>
-            </div>
+        </div>
+        <div class="form-group row">
+          <label for="phoneNum" class="col-xs-12 col-sm-6 col-form-label-sm">Phone number:</label>
+          <div class="col-12">
+            <input type="num" class="form-control form-control-sm" id="phoneNum" required>
           </div>
-          <div class="form-group row">
-            <label for="email" class="col-6 mb-2 col-form-label">Email:</label>
-            <div class="col-10">
-              <input type="email" class="form-control form-control-sm" id="email" required>
-            </div>
+        </div>
+        <div class="form-group row">
+          <label for="email" class="col-xs-12 col-sm-6col-form-label-sm">Email:</label>
+          <div class="col-12">
+            <input type="email" class="form-control form-control-sm" id="email" required>
           </div>
-          <div class="form-group row">
-            <label for="textArea" class="col-6 mb-2 col-form-label">Comments:</label>
-            <div class="col-10">
-              <textarea class="form-control textbox" id="textArea" placeholder="Your comments here..."></textarea>
-            </div>
+        </div>
+        <div class="form-group row">
+          <label for="textArea" class="col-xs-12 col-sm-6 col-form-label-sm">Comments:</label>
+          <div class="col-12">
+            <textarea class="form-control textbox" id="textArea" placeholder="Your comments here..."></textarea>
           </div>
-          <div class="form-group row d-flex justify-content-end">
-            <div class="col-sm-3">
-              <button type="reset" class="btn reset">Reset</button>
-            </div>
-            <div class="col-sm-3">
-              <button type="submit" class="btn submit" data-toggle="modal" data-target="#exampleModal">Submit</button>
-              <!-- Bootstrap Modal -->
-              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-content">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  Thank you, I'll get back to you as soon as I can.
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
+        </div>
+        <div class="form-group row justify-content-end">
+          <div class="col-xs-4 mx-2">
+            <button type="reset" class="btn btn-link reset form-control-sm">Reset</button>
           </div>
-        </form>
-      </div>
+          <div class="col-xs-4 mx-2">
+            <button type="submit" class="btn btn-link submit form-control-sm" data-toggle="modal" data-target="#contactModal">
+              Submit
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
   </section>
 
-  <footer class="contact-footer">
+  <footer class="contact-footer d-flex align-items-center">
     <div class="container-fluid">
       <div class="row">
         <div class="col">
@@ -132,6 +120,26 @@
     </div>
   </footer>
   <!-- Scripts  -->
+  <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+      'use strict';
+      window.addEventListener('load', function () {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function (form) {
+          form.addEventListener('submit', function (event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+  </script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>

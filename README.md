@@ -81,8 +81,8 @@ I have chosen [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=open
 
 ### **Colours**
 
-![Coolors Palette](assets/images/ms1-ali.png)
-Format: ![Coolors Palette](https://coolors.co/80a1d4-45b0ae-75c9c8-b8aec1-c0b9dd-f7f4ea-f5f9fd)
+![Coolors Palette](assets/images/ms1-coolors.png)
+Format: [Coolors Palette](https://coolors.co/80a1d4-45b0ae-75c9c8-c0b9dd-f5f9fd)
 and rgba(245, 244, 244, 0.8) for the Jumbotron.
 
 These colours compliment each other well and are not too striking, in keeping with what the user expects of a massage site. 
