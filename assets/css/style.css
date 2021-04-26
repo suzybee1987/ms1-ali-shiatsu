@@ -295,8 +295,8 @@ a {
   position: relative;
 }
 
-.hero {
-  height: 100vh;
+.hero-contact {
+  height: 900px;
   padding-top: 100px;
   background: url("../images/laurent-gence-lX7-dfIaeUc-unsplash.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -351,13 +351,11 @@ form {
 .contact-form {
   margin: 1% 1%;
   position: relative;
-  padding: 2rem 1rem;
-  padding: 120px 10px;
   background: rgba(245, 244, 244, 0.8);
   border-radius: 0.5rem;
   max-width: 400px;
   max-height: 500px;
-  padding: 10px 15px;
+  padding: 10px 15px 0px 15px;
   font-weight: 400;
   text-align: left;
 }
