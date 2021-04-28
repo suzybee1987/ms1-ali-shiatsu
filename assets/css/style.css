@@ -147,7 +147,7 @@ section#about-me {
   color: #f5f9fd;
 }
 
-/* Reviews  */
+/* Testimonials  */
 
 .testimonial-section {
   padding: 40px 0;
@@ -156,6 +156,10 @@ section#about-me {
 
 blockquote {
   font-size: 90%;
+}
+
+.card.testimonials.mx-auto.h-100 {
+    max-width: 350px;
 }
 
 /* Find  */
