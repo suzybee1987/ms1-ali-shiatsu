@@ -2,28 +2,42 @@
 <html lang="en">
 
 <head>
+  <!-- Meta data  -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Business site for Alison Shiatsu Massage" />
-  <meta name="keywords" content="shiatsu, shin tai, massage, cheshire, congleton, masseuse" />
+  <meta name="description"
+    content="Shiatsu Shin Tai with Registered Practitioner Alison Melville. Shiatsu Shin Tai treatments and training in Cheshire" />
+  <meta name="keywords" content="shiatsu, shin tai, massage, cheshire, congleton, masseuse, studio, registered" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
+  <!-- Lighthouse req cache control - answer on stackoverflow  -->
+  <!-- https://stackoverflow.com/questions/4480304/how-to-set-http-headers-for-cache-control#:~:text=To%20use%20cache%2Dcontrol%20in,use%20the%20meta%20tag%2C%20e.g.&text=The%20value%20in%20the%20content,of%20the%20four%20values%20below.&text=HTTP%201.1.,%2DCACHE%20%7C%20NO%2DSTORE.   -->
+  <meta http-equiv="Cache-control" content="public">
+  
+  <!-- /Meta Data -->
+  <!-- Browser title  -->
+  <title> Alison Melville | Registered Shiatsu Practitioner </title>
+  <!-- Favicons  -->
   <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
   <link rel="manifest" href="assets/images/favicon/site.webmanifest" crossorigin="use-credentials">
+  <!-- /Browser title  -->
+
+  <!-- Stylesheets  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
   <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-  <title>Alison Melville Shiatsu</title>
+  <!-- /Stylesheets  -->
 </head>
 
 <body data-spy="scroll" data-target="#navbar1" data-offset="110">
-  <!-- Nav Header -->
   <header>
     <div class="container">
       <div class="row">
         <div class="col">
+          <!-- Bootstrap navbar -->
+          <!-- https://getbootstrap.com/docs/4.6/getting-started/introduction/ -->
           <nav id="navbar1" class="navbar navbar-expand-md fixed-top navbar-dark">
             <a class="navbar-brand" href="index.html"><i class="fas fa-spa"></i><span
                 class="sr-only">(current)</span></a>
@@ -32,8 +46,8 @@
               aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-
             <div id="navbarToggle" class="collapse navbar-collapse justify-content-end">
+              <!-- /Bootstrap navbar toggler for mobile hamburger menu  -->
               <ul class="navbar-nav navbar-brand">
                 <li class="nav-item">
                   <a class="nav-link" href="#shiatsu">Shiatsu</a>
@@ -65,8 +79,7 @@
       <div class="col-sm-6">
         <div class="jumbotron-index">
           <h1 class="display-5">Shiatsu Shin Tai</h1>
-          <p class="lead">Alison Melville Registered Professional Practitioner
-          </p>
+          <p class="lead">Alison Melville | Registered Professional Practitioner</p>
         </div>
       </div>
     </div>
@@ -83,10 +96,11 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6">
-            <img src="assets/images/Ali-massage2.jpg" alt="" class="rounded">
+          <div class="col-sm-12 col-lg-6">
+            <img src="assets/images/Ali-massage2.1.jpg" alt="Alison personal a Shin Tai massage" width="250"
+              height="187" class="rounded img-fluid">
           </div>
-          <div class="col-md-6 my-3 text-center">
+          <div class="col-sm-12 col-lg-6 my-3 text-center">
             <p>
               Originating in Japan and based on Eastern philosophies.
               Shiatsu is an ancient non-invasive therapeutic touch that
@@ -103,6 +117,7 @@
       </div>
     </section>
     <!-- /About Shiatsu -->
+
     <!-- About Shin Tai -->
     <section id="shintai" class="shintai-section">
       <div class="container">
@@ -128,9 +143,8 @@
                 psychological trauma and everyday stresses thereby creating patterns of behaviour. Shin Tai touches
                 on a very deep level looking to address these underlying energetic patterns that are utilising an
                 individual’s energy in ways that do not necessarily support them in the present moment. </p>
-              <p>Shin Tai is
-                a
-                journey of self-discovery that enables individuals to have more energy, clarity and begin to make
+              <p>Shin Tai is a journey of self-discovery that enables individuals to have more energy, clarity and begin
+                to make
                 choices in life that brings them the most joy.
               </p>
             </div>
@@ -153,7 +167,9 @@
           </div>
         </div>
         <!-- /Show only on large devices  -->
+
         <!-- Bootstrap Accordian  -->
+        <!-- https://getbootstrap.com/docs/4.6/components/collapse/#accordion-example -->
         <!-- Show only on md,sm devices  -->
         <div class="d-md-block d-lg-none">
           <div id="accordion">
@@ -229,10 +245,10 @@
               </div>
             </div>
           </div>
+          <!-- /Show only on md,sm devices  -->
           <!-- /Bootstrap Accordian  -->
         </div>
       </div>
-      <!-- /Show only on md,sm devices  -->
     </section>
     <!-- /About Shin Tai -->
 
@@ -249,7 +265,8 @@
         <div class="d-none d-md-none d-lg-block">
           <div class="row my-3">
             <div class="col-md-6 text-center">
-              <img src="assets/images/ali-photo2.jpg" alt="Alison portrait" class="about-me-img rounded">
+              <img src="assets/images/ali-photo2.jpg" alt="Portrait of Alison" class="rounded img-fluid" width="119"
+                height="159">
               <p>
                 I work with a variety of Shin Tai techniques which include elements of Shiatsu, fascial unwinding,
                 stillness, Central Channel release, passive structural adjustments, Cranio-Sacral techniques, and
@@ -281,7 +298,8 @@
         <div class="d-md-block d-lg-none">
           <div class="row">
             <div class="col text-center">
-              <img src="assets/images/ali-photo2.jpg" alt="Alison portrait" class="about-me-img rounded mb-3">
+              <img src="assets/images/ali-photo2.jpg" alt="Portrait of Alison" class="rounded img-fluid" width="119"
+                height="159">
               <p>
                 I work with a variety of Shin Tai techniques which include elements of Shiatsu, fascial unwinding,
                 stillness, Central Channel release, passive structural adjustments, Cranio-Sacral techniques, and
@@ -289,6 +307,7 @@
             </div>
           </div>
           <!-- Bootstrap Accordian  -->
+          <!-- https://getbootstrap.com/docs/4.6/components/collapse/#accordion-example -->
           <div class="accordian" id="accordionMe">
             <div class="card card-me">
               <div class="card-header card-header-me" id="headingMe">
@@ -385,9 +404,16 @@
 
           <div class="col-md-6 justify-content-around">
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe src="https://www.youtube.com/embed/aLYgPbQXyGw" title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen class="embed-responsive-item youtube"></iframe>
+              <figure>
+                <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/aLYgPbQXyGw"
+                  loading="lazy" title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                  <p>Your browser does not support iframes.</p>
+                </iframe>
+              </figure>
+
+
             </div>
           </div>
         </div>
@@ -479,7 +505,7 @@
         <div class="col">
           <ul class="list-inline sm-link-shiatsu">
             <li class="list-inline-item">
-              <a href="https://www.shiatsusociety.org/" target="_blank"><img src="assets/images/logo.png"
+              <a href="https://www.shiatsusociety.org/" target="_blank" width="127" height="79" rel="noopener"><img src="assets/images/logo.png"
                   target="_blank" alt="Shiatsu Society Logo" /></a>
               <span class="sr-only">Shiatsu Society (UK)</span>
             </li>
@@ -517,6 +543,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
     crossorigin="anonymous"></script>
+
 
   <!-- /Scripts  -->
 </body>

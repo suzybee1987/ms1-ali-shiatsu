@@ -104,7 +104,7 @@ ul.navbar-nav.navbar-brand {
   background-color: rgba(245, 245, 245, 0.9);
   border-radius: 0.5rem;
 }
-.display-4 {
+.display-5 {
   text-decoration: underline;
   text-decoration-thickness: 3px;
   border-radius: 0.5rem;
@@ -113,9 +113,8 @@ ul.navbar-nav.navbar-brand {
 /* About Shiatsu */
 
 .shiatsu img {
-  width: 55%;
-  height: auto;
-  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
 }
 
 .shiatsu {
@@ -136,11 +135,9 @@ section#about-me {
   padding: 40px 0px;
 }
 
-img.about-me-img.rounded {
+.about-me img {
   margin-bottom: 30px;
-  width: 30%;
-  height: auto;
-  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.5);
 }
 
 /* Pricing  */
@@ -148,10 +145,6 @@ img.about-me-img.rounded {
   padding: 40px 0px;
   background-color: #c0b9dd;
   color: #f5f9fd;
-}
-
-.youtube {
-margin: 20px;
 }
 
 /* Reviews  */
@@ -187,6 +180,7 @@ blockquote {
   outline: 0;
   box-shadow: none;
 }
+
 .card-body-shintai {
   color: #75c9c8;
   background-color: #f5f9fd;
@@ -256,6 +250,8 @@ a {
   color: #f5f9fd;
   text-decoration: underline;
   text-underline-position: under;
+  border-bottom: solid 2px #f5f9fd;
+  padding-bottom: 2px;
 }
 
 .sm-link-shiatsu li img {
