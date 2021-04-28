@@ -274,7 +274,7 @@ a {
 } */
 
 .hero-contact {
-  height: 600px;
+  height: 1000px;
   padding-top: 100px;
   background: url("../images/laurent-gence.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -283,11 +283,14 @@ a {
   background-size: cover;
 }
 
-.reset {
-  color: #f5f9fd;
-  background-color: #80a1d4;
-  /* margin-bottom: 10px; */
-  text-align: center;
+.reset, .toast-header {
+  color: #80a1d4;
+  background-color: #f5f9fd;
+  border: 1px solid #80a1d4;
+}
+
+.toast {
+  opacity: 1;
 }
 
 .reset:hover {
@@ -297,45 +300,57 @@ a {
   text-decoration-color: initial;
   text-decoration-thickness: 2px;
 }
-.submit {
-  color: #80a1d4;
-  background-color: #f5f9fd;
-  border: 1px solid #80a1d4;
+
+.btn.submit {
+  color: #f5f9fd;
+  background-color: #80a1d4;
+  /* margin-bottom: 10px; */
+  text-align: center;
+  border-color: #80a1d4;
+  border-width: 1px;
 }
-.submit:hover {
+
+.btn.submit:hover {
   color: #80a1d4;
   background-color: #f5f9fd;
+  text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-color: initial;
   text-decoration-thickness: 2px;
 }
-.form-group {
-  width: 100%;
-}
 
-btn:hover {
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-color: initial;
-  text-decoration-thickness: 5px;
+
+.form-group {
+  margin-bottom: 1rem;
 }
 
 form {
-  margin: 10px;
-  max-width:300px;
+  margin: 20px;
   padding:0;
 }
 
 .contact-form {
-  margin: 1% 1%;
+  margin: 10% 10%;
   position: relative;
   background: rgba(245, 244, 244, 0.8);
   border-radius: 0.5rem;
   max-width: 400px;
-  max-height: 500px;
+  max-height: 700px;
   padding: 10px 15px 0px 15px;
   font-weight: 400;
   text-align: left;
+}
+
+/* Bootstrap form-control-sm css used here  */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+ .form-control {
+    height: calc(1.5em + .5rem + 2px);
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+  }
 }
 
 h5.contact {
