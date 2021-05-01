@@ -23,15 +23,20 @@ h4 {
   padding-bottom: 20px;
 }
 
-h3, h4 {
-    margin-bottom: 40px;
+h3,
+h4 {
+  margin-bottom: 40px;
 }
 
-.shiatsu h3, .about-me h3, .testimonial-section h3 {
+.shiatsu h3,
+.about-me h3,
+.testimonial-section h3 {
   border-bottom: 2px solid #80a1d4;
 }
 
-.shintai-section h3, .price-section h3, .find-me h3{
+.shintai-section h3,
+.price-section h3,
+.find-me h3 {
   border-bottom: 2px solid #f5f9fd;
 }
 p {
@@ -118,7 +123,6 @@ ul.navbar-nav.navbar-brand {
 
 /* About Shiatsu */
 
-
 .shiatsu img {
   box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.5);
   margin-top: 20px;
@@ -182,12 +186,8 @@ blockquote {
 .find-me {
   background-color: #75c9c8;
   color: #f5f9fd;
-  padding: 40px 0px;
+  padding: 30px 0 40px 0;
   text-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.25);
-}
-
-.find-me h3 {
-  padding-bottom: 40px;
 }
 
 /* Md,sm devices about-shintai */
@@ -284,8 +284,6 @@ a {
 
 /* contact me  */
 
-
-
 .hero-contact {
   min-height: 100vh;
   padding-top: 100px;
@@ -359,27 +357,40 @@ form {
 }
 
 @media only screen and (width: 768px) {
-.contact-form {
-  margin: 20% 0% 0% 10%;
-}
+  .contact-form {
+    margin: 20% 0% 0% 10%;
+  }
 }
 
 @media only screen and (min-width: 992px) {
-.contact-form {
-  margin: 5% 0% 0% 10%;
-}
+  .contact-form {
+    margin: 5% 0% 0% 10%;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
   .hero-contact {
-  min-height: 95vh;
-
-}
+    min-height: 95vh;
+  }
 }
 .form-group.row.justify-content-end {
   margin-bottom: 0;
 }
 
-h5.contact {
-  text-shadow: none;
+.modal-header {
+  background-color: #80a1d4;
+  border-bottom: 1px solid #f5f9fd;
+  color: #f5f9fd;
+  padding: 1rem 1rem 0;
+}
+
+.modal-btn {
+  background-color: #80a1d4;
+  border-color: #80a1d4;
+  color: #f5f9fd;
+}
+
+.modal-content {
+    background-color: #f5f9fd;
+  color: #80a1d4;
 }

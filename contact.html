@@ -8,6 +8,7 @@
   <meta name="description"
     content="Shiatsu Shin Tai with Registered Practitioner Alison Melville. Shiatsu Shin Tai treatments and training in Cheshire" />
   <meta name="keywords" content="shiatsu, shin tai, massage, cheshire, congleton, masseuse, studio, registered" />
+  <meta name="author" content="Suzy Bennett">
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <!-- Lighthouse req cache control - answer on stackoverflow  -->
   <!-- https://stackoverflow.com/questions/4480304/how-to-set-http-headers-for-cache-control#:~:text=To%20use%20cache%2Dcontrol%20in,use%20the%20meta%20tag%2C%20e.g.&text=The%20value%20in%20the%20content,of%20the%20four%20values%20below.&text=HTTP%201.1.,%2DCACHE%20%7C%20NO%2DSTORE.   -->
@@ -43,7 +44,6 @@
               aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-
             <div id="navbarToggle" class="collapse navbar-collapse justify-content-end">
               <ul class="navbar-nav navbar-brand">
                 <li class="nav-item">
@@ -73,7 +73,7 @@
     <div class="container-fluid hero-contact">
       <div class="contact-form justify-content-start">
         <h4 class="text-center my-2">Contact Me</h4>
-        <form id="form1" class="needs-validation" name="form1">
+        <form id="contactForm" class="needs-validation">
           <div class="form-group row">
             <label for="name" class="col-md-4 my-2">Name:</label>
             <div class="col-sm-8">
@@ -95,8 +95,7 @@
           <div class="form-group row">
             <label for="textArea" class="col-md-4 col-form-label-sm my-2">Comments:</label>
             <div class="col-sm-8">
-              <textarea type="text" class="form-control" id="textArea">
-            </textarea>
+              <textarea type="text" class="form-control" id="textArea" placeholder="Questions? Comments?"></textarea>
             </div>
           </div>
           <div class="form-group row justify-content-end">
@@ -108,6 +107,25 @@
             </div>
           </div>
         </form>
+        <!-- Bootstrap modal  -->
+        <div class="modal fade" id="submitModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="modalLabel">Request received <i class="fas fa-check-circle"></i></h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                I'll be in touch within 24 hours.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn modal-btn" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -149,7 +167,10 @@
       </div>
     </div>
   </footer>
+
+
   <!-- Scripts  -->
+  <!-- Davide Sanfilippo Codepen for modal to only appear when form submitted correctly -->
 
 
   <!-- Alex on Slack shared solution to close navbar after click  -->
@@ -165,12 +186,19 @@
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
     integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
-    crossorigin="anonymous"></script><!-- Alex on Slack shared solution to close navbar after click  -->
+    crossorigin="anonymous"></script>
+
+  <!-- Alex on Slack shared solution to close navbar after click  -->
   <!-- https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1618324403124300?thread_ts=1618323545.123900&cid=C7J2ZAVHB  -->
   <script> $('.navbar-nav>li>a').on('click', function () {
       $('.navbar-collapse').collapse('hide');
     });
   </script>
+  <script>$('#contactForm').on('submit', function (e) {
+      $('#submitModal').modal('show');
+      e.preventDefault();
+    });</script>
+
 </body>
 
 </html>
