@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
   <!-- Meta data  -->
@@ -31,12 +31,12 @@
   <!-- /Stylesheets  -->
 </head>
 
-<body data-spy="scroll" data-target="#navbar1" data-offset="110">
+<body data-spy="scroll" data-target="#navbar1" data-offset="110" class="d-flex flex-column h-100">
   <header>
     <div class="container">
       <div class="row">
         <div class="col">
-          <nav id="navbar1" class="navbar navbar-expand-md fixed-top navbar-dark">
+          <nav id="navbar1" class="navbar navbar-expand-lg fixed-top navbar-dark">
             <a class="navbar-brand" href="index.html"><i class="fas fa-spa"></i></a>
             <!-- Bootstrap navbar toggler for mobile hamburger menu  -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
@@ -72,64 +72,47 @@
   <section id="contact">
     <div class="container-fluid hero-contact">
       <div class="contact-form justify-content-start">
-        <h5 class="text-center my-2">Contact Me:</h5>
-        <form class="needs-validation h-100">
+        <h4 class="text-center my-2">Contact Me</h4>
+        <form id="form1" class="needs-validation" name="form1">
           <div class="form-group row">
-            <label for="name" class="col-sm-4 my-2 col-form-label-sm">Name:</label>
+            <label for="name" class="col-md-4 my-2">Name:</label>
             <div class="col-sm-8">
               <input type="text" class="form-control" id="name" required>
             </div>
           </div>
           <div class="form-group row">
-            <label for="phone" class="col-sm-4 col-form-label-sm my-2">Phone:</label>
+            <label for="phone" class="col-md-4 col-form-label my-2">Phone:</label>
             <div class="col-sm-8">
-              <input type="tel" class="form-control" id="phone" required>
+              <input type="tel" class="form-control" id="phone" minlength="11" required>
             </div>
           </div>
           <div class="form-group row">
-            <label for="email" class="col-sm-4 col-form-label-sm my-2">Email:</label>
+            <label for="email" class="col-md-4 col-form-label-sm my-2">Email:</label>
             <div class="col-sm-8">
               <input type="email" class="form-control" id="email" required>
             </div>
           </div>
           <div class="form-group row">
-            <label for="textArea" class="col-sm-4 col-form-label-sm my-2">Comments:</label>
+            <label for="textArea" class="col-md-4 col-form-label-sm my-2">Comments:</label>
             <div class="col-sm-8">
               <textarea type="text" class="form-control" id="textArea">
             </textarea>
             </div>
           </div>
-
           <div class="form-group row justify-content-end">
             <div class="col-xs-4 m-3">
               <button type="reset" class="btn btn-link reset">Reset</button>
             </div>
             <div class="col-xs-4 m-3">
-              <button type="button" class="btn submit" id="submitBtn">Submit</button>
+              <button type="submit" class="btn submit" value="submit">Submit</button>
             </div>
           </div>
-          <!-- Bootstrap Toast  -->
-          <div class="position-fixed bottom-5 right-0 p-3" style="z-index: 5; right: 0; bottom: 5;">
-            <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
-              <div class="toast-header">
-                <strong class="mr-auto">Thank You!</strong>
-                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="toast-body">
-                Your request has been received.
-                I'll be in touch within 24 hours.
-              </div>
-            </div>
-          </div>
-          <!-- /Bootstrap Toast  -->
         </form>
       </div>
     </div>
   </section>
 
-  <footer class="contact-footer d-flex align-items-center fixed-bottom">
+  <footer class="contact-footer d-flex align-items-center footer mt-auto py-3">
     <div class="container-fluid">
       <div class="row">
         <div class="col">
@@ -188,15 +171,6 @@
       $('.navbar-collapse').collapse('hide');
     });
   </script>
-  <script>
-
-      $('#submitBtn').click(function () {
-        $('.toast').toast({ animation: true, delay: 2000 });
-        $('.toast').toast('show');
-      });
-
-  </script>
-  <!-- /Scripts  -->
 </body>
 
 </html>
