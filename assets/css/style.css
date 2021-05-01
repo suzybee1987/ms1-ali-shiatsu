@@ -6,7 +6,7 @@ font-family: "Montserrat", sans-serif; */
 html,
 body {
   font-family: "Montserrat", sans-serif;
-  color: #80a1d4;
+  color: #5b76a0;
   position: relative;
   padding: 0px;
   margin: 0px;
@@ -31,31 +31,30 @@ h4 {
 .shiatsu h3,
 .about-me h3,
 .testimonial-section h3 {
-  border-bottom: 2px solid #80a1d4;
+  border-bottom: 2px solid #5b76a0;
 }
 
-.shintai-section h3,
 .price-section h3,
 .find-me h3 {
   border-bottom: 2px solid #f5f9fd;
 }
+
 p {
   font-size: 1em;
-  /* text-shadow: 0 0 0.1rem rgba(0, 0, 0, 0.2); */
 }
 
 /* Navigation */
 
 nav {
   z-index: 100;
-  background-color: #80a1d4;
+  background-color: #5b76a0;
   height: 60px;
 }
 
 .navbar-brand,
 .nav-item,
 .navbar {
-  color: #fff;
+  color: #f5f9fd;
   font-family: "Architects Daughter", cursive;
   font-weight: 400;
   font-size: 1.1em;
@@ -63,8 +62,8 @@ nav {
 
 .navbar-dark .navbar-nav .nav-link,
 .navbar-toggler {
-  color: #fff;
-  background-color: #80a1d4;
+  color: #f5f9fd;
+  background-color: #5b76a0;
   padding: 8px 16px;
 }
 
@@ -90,7 +89,7 @@ nav {
 }
 
 ul.navbar-nav.navbar-brand {
-  background-color: #80a1d4;
+  background-color: #5b76a0;
 }
 
 /* hero image */
@@ -136,8 +135,12 @@ ul.navbar-nav.navbar-brand {
 
 .shintai-section {
   padding: 40px 0px 50px 0px;
-  background-color: hsl(179, 44%, 62%);
+  background-color: #299491;
   color: #f5f9fd;
+}
+
+.shintai-section h3 {
+  border-bottom: 1px solid #f5f9fd;
 }
 
 /* About Me  */
@@ -184,7 +187,7 @@ blockquote {
 /* Find  */
 
 .find-me {
-  background-color: #75c9c8;
+  background-color: #299491;
   color: #f5f9fd;
   padding: 30px 0 40px 0;
   text-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.25);
@@ -201,7 +204,7 @@ blockquote {
 }
 
 .card-body-shintai {
-  color: #75c9c8;
+  color: #315252;
   background-color: #f5f9fd;
 }
 
@@ -230,14 +233,14 @@ blockquote {
 }
 
 .card-header.card-header-me {
-  background-color: #80a1d4;
+  background-color: #5b76a0;
   color: #f5f9fd;
 }
 
 /* Footer  */
 
 footer {
-  background-color: #80a1d4;
+  background-color: #5b76a0;
   height: 70px;
 }
 
@@ -252,7 +255,7 @@ footer {
   margin-top: 20px;
   margin-bottom: 0;
   font-size: 1.5em;
-  color: #fff;
+  color: #f5f9fd;
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
@@ -261,7 +264,7 @@ footer {
 }
 
 a {
-  color: #fff;
+  color: #f5f9fd;
   text-decoration: none;
 }
 
@@ -297,9 +300,9 @@ a {
 
 .reset,
 .toast-header {
-  color: #80a1d4;
+  color: #5b76a0;
   background-color: #f5f9fd;
-  border: 1px solid #80a1d4;
+  border: 1px solid #5b76a0;
 }
 
 .toast {
@@ -308,7 +311,7 @@ a {
 
 .reset:hover {
   color: #f5f9fd;
-  background-color: #80a1d4;
+  background-color: #5b76a0;
   text-decoration-style: solid;
   text-decoration-color: initial;
   text-decoration-thickness: 2px;
@@ -316,7 +319,7 @@ a {
 
 .btn.submit {
   color: #f5f9fd;
-  background-color: #80a1d4;
+  background-color: #5b76a0;
   /* margin-bottom: 10px; */
   text-align: center;
   border-color: #80a1d4;
@@ -324,7 +327,7 @@ a {
 }
 
 .btn.submit:hover {
-  color: #80a1d4;
+  color: #5b76a0;
   background-color: #f5f9fd;
   text-decoration: underline;
   text-decoration-style: solid;
@@ -378,19 +381,19 @@ form {
 }
 
 .modal-header {
-  background-color: #80a1d4;
+  background-color: #5b76a0;
   border-bottom: 1px solid #f5f9fd;
   color: #f5f9fd;
   padding: 1rem 1rem 0;
 }
 
 .modal-btn {
-  background-color: #80a1d4;
-  border-color: #80a1d4;
+  background-color: #5b76a0;
+  border-color: #5b76a0;
   color: #f5f9fd;
 }
 
 .modal-content {
-    background-color: #f5f9fd;
-  color: #80a1d4;
+  background-color: #f5f9fd;
+  color: #5b76a0;
 }
