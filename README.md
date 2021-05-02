@@ -1,15 +1,21 @@
+# Alison Melville's Shiatsu Massage
+
+![](assets/images/amiresponsive.png)
+
+## About
 **Alison Melville's Shiatsu** needs a B2C website that showcases a massage business specialising in Shin Tai near Manchester. I designed the site to educate the user about the benefits of Shiatsu Shin Tai and allow them to contact her to book a consultation. 
 I created the site to look professional and in keeping with the theme of similar Shiatsu websites and using the colour schemes to bring a relaxing impression as would be expected with a massage site.
 The goal of the website will be to interact with existing and potential clients and be a source of information to educate them, build confidence and encourage them to contact the business owner.
-The site must contain all information required to complete these goals.
-Site visitors will most likely be comparing with other similar services in the local area so must stand out and show everything the user would want to see.
+The site must contain all information required to complete these goals and site visitors will most likely be comparing with other similar services in the local area so must stand out and show everything the user would want to see.
+
+Link to [live site](https://suzybee1987.github.io/ms1-ali-shiatsu/index.html)
 
 ## **Contents**
 
 - [**UX (User Experience)**](#ux-user-experience)
+  - [**User Stories**](#user-stories)
   - [**Project Goals**](#project-goals)
   - [**User Goals**](#user-goals)
-  - [**User Stories**](#user-stories)
   - [**Site Owner Goals**](#site-owner-goals)
 - [**Design Choices**](#design-choices)
   - [**Fonts**](#fonts)
@@ -24,10 +30,6 @@ Site visitors will most likely be comparing with other similar services in the l
   - [**Features Implemented**](#features-implemented)
   - [**Future Features**](#future-features)
   - [**Responsive Design**](#responsive-design)
-  - [**Site Construction**](#site-construction)
-  - [**Page Layout**](#page-layout)
-    - [**INDEX.HTML**](#indexhtml)
-    - [**CONTENT.HTML**](#contenthtml)
 - [**Version Control**](#version-control)
 - [**Testing**](#testing)
 - [**Bugs**](#bugs)
@@ -39,31 +41,37 @@ Site visitors will most likely be comparing with other similar services in the l
   - [**Colour**](#colour)
   - [**Inspiration**](#inspiration)
   - [**Acknowledgements**](#acknowledgements)
-
-
-# Ali's Shiatsu
-
-This project is designed to showcase the Shiatsu Shin Tai massage with some information about its derivation, how Ali came to learn it and study it and an opportunity for the user to contact the business owner for more information and to book appointments. 
-
+  
  
 ## **UX (User Experience)**
- 
+
+
+### **User Stories**
+- As a user visiting the site for the first time:
+  - I want to be able to see social media links so that I can keep up to date through Facebook, Instagram and Twitter.
+  - I want to click the navigation links to be taken to the correct section and also back to home for a better user experience.
+  - I want the page to be in a predictable layout so that I can navigate it easily.  
+  - I want to see a map of the location so that I can determine how close it is to my location and navigate there easily.  
+
+- As a user returning to the site:
+  - I want to be able to access the site easily on my chosen device
+  - I want to easily be able to navigate to different parts of the site
+  - I want to be able to contact the business owner as I wish through social media or contact form
+
+- As a user who has never had a Shiatsu Shin Tai Massage before:
+   - I want to use the site to learn more about Shiatsu Shin Tai and how to contact the business owner so that I can ask questions.
+   - I want to see a demonstration of what to expect when receiving a Shiatsu Shin Tai massage.
+   - I want some information about the price and time required per session
+   - I want some information about the business owner's qualifications.
+   
+   
 ### **Project Goals**
 - The primary goal of this site is to showcase Ali's Shiatsu Shin Tai massage business to attract new clients and provide a means of communication while linking to social media pages. 
 
+
 ### **User Goals**
-- The user will be able to find out more about shiatsu shin tai and be able to contact Ali for more information.
+- The user will be able to find out more about Shiatsu Shin Tai and be able to contact Ali for more information.
 
-### **User Stories**
-
-- As a user I want to use the site to learn more about Shiatsu Shin Tai and how to contact the business owner so that I can have a massage.
-- As a user I want to be able to communicate with the business owner and find out what is involved in a Shiatsu Shin Tai massage so that I can decide if I'd like to try it. 
-- As a user I want to be able to see social media links so that I can keep up to date through Facebook, Instagram and Twitter.
-- As a user I want to see a demonstration of what to expect when receiving a Shiatsu Shin Tai massage.
-- As a user I want to click the navigation links to be taken to the correct section and also back to home for a better user experience.
-- As a user I want the page to be in a predictable layout so that I can navigate it easily.  
-- As a user I want pricing information to be on the site so that I can compare with other providers.
-- As a user I want to see a map of the location so that I can determine how close it is to my location and navigate there easily.  
 
 ### **Site Owner Goals** 
 - As a site owner I want the user to learn about Shiatsu Shin Tai massage and the business owner.
@@ -75,40 +83,43 @@ This project is designed to showcase the Shiatsu Shin Tai massage with some info
 
 ## **Design Choices**
 
+
 ### **Fonts**
 
-I have chosen [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=open+sans) for the headers and [Roboto](https://fonts.google.com/specimen/Roboto) for the rest of the text on the site (eg. paragraphs and lists)
+I have chosen [Architect's Daughter](https://fonts.google.com/specimen/Architects+Daughter) for the headers as it is easy to read and has sufficient contrast to the main body font. It is a cursive font so has a more easy-going, relaxed look inkeeping with the feel of the site. 
+![assets/images/architects-daughter.png]
+
+and [Montserrat](https://fonts.google.com/specimen/Montserrat) for the rest of the text on the site (eg. paragraphs and lists) as it is easy to read with wider spacing than other fonts.
+
+![assets/images/montserrat.png]
+
 
 ### **Colours**
 
-![Coolors Palette](assets/images/ms1-coolors.png)
-Format: [Coolors Palette](https://coolors.co/80a1d4-45b0ae-75c9c8-c0b9dd-f5f9fd)
-and rgba(245, 244, 244, 0.8) for the Jumbotron.
+As the site purpose is about relaxation and massage the colour scheme used is adapted to suit with what the user would expect of this kind of site. It features complementary blue, green and purple colours that also stand out to make the content easy to read. The colours chosen are:
 
-These colours compliment each other well and are not too striking, in keeping with what the user expects of a massage site. 
+![Coolors Palette](assets/images/ms1-coolors.png.png)
+Format: [Coolors Palette](https://coolors.co/5b76a0-299491-45b0ae-827aa2-f5f9fd)
+
+These colours compliment each other well and are not too striking, in keeping with what the user expects. 
 
 ### **Imagery**
- 
-Images can be found in [assets](assets/images) and have been sourced from Unsplash and Pexels sites which are free to use if credited. 
 
-- index.html
-  - The [Hero image](assets/images/conscious-design-J16LdoIsRJM-unsplash.jpg) on index.html was sourced from [Unsplash](https://unsplash.com/). Photo by <a href="https://unsplash.com/@conscious_design?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Conscious Design</a> on <a href="https://unsplash.com/s/photos/massage-therapy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  - The images of [Alison Performing Shin Tai Massage](assets/images/Ali-massage2.jpg) and [Alison's profile photo](assets/images/ali-photo2.jpg)  were taken by her husband, Iain Melville.
 
-- contact.html
-The hero image on contact.html was sourced from [Unsplash](https://unsplash.com/). Photo by <a href="https://unsplash.com/@lgence?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Laurent Gence</a> on <a href="https://unsplash.com/@dfu05229/likes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Images can be found in [assets](assets/images) and feature Shin Tai massages being performed, a profile of the business owner and continue with the relaxing theme of the site.
+Some of the images have been sourced from [Unsplash](https://unsplash.com/) and are free to use if credited and others were provided by the business owner. 
   
 ### Video
 
 -index.html
-  - The [Massage Demonstration Video](https://youtu.be/aLYgPbQXyGw) is performed by Saul Goodman and credit given on site. 
+  - The [Massage Demonstration Video](https://youtu.be/aLYgPbQXyGw) is performed by Saul Goodman who came up with the Shin Tai blend of massage. 
 
 
 ### **Wireframes**
 
 The wireframes were created using [Balsamiq](https://balsamiq.com/) and can be found in pdf form in [wireframes](wireframes)
 
-- [Home](wireframes/index.html)
+- [Home](wireframes/)
 - [Contact Page](wireframes/contact.html)
 - [Mobile View - Home](wireframes/mobile-index.html)
 - [Mobile View - Contact Page](wireframes/mobile-contact.html)
@@ -127,12 +138,12 @@ The wireframes were created using [Balsamiq](https://balsamiq.com/) and can be f
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
   - Used to style the individual webpages.
 - [jQuery](https://developer.mozilla.org/en-US/docs/Glossary/jQuery) and [Popper.js](https://popper.js.org/)
-  - Used with Bootstrap Scrollspy to track location on the page and Bootstrap Collapse for Accordian sections on mobile and tablet view. 
+  - Used with Bootstrap Scrollspy to track location on the page and Bootstrap Collapse for Accordian sections on mobile and tablet view. Also used with the contact form to launch the modal after required fields on form were completed. 
 
 ### **Libraries**
 ​
 - [Bootstrap](https://getbootstrap.com/)
-  - Used to design a mobile-first responsive website layout.
+  - Used to design a mobile-first responsive website layout along with custom components (navigation bar toggle button, accordian, cards, scrollspy, footer).
 
   
 ### **Tools**
@@ -152,37 +163,68 @@ The wireframes were created using [Balsamiq](https://balsamiq.com/) and can be f
 - [Favicons](https://favicon.io/)
   - Used to generate a favicon for the website title.
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
-  - Used to audit the site for quality.
-- [What is my Screen Resolution](http://whatismyscreenresolution.net/)
-  - An online tool to find out the screen resolution on your device used for CSS @media queries
+  - Used to audit the site for quality and ensure responsiveness.
+- [amiresponsive](http://ami.responsivedesign.is/)
+  - An online tool to check how responsive the site is on different devices.
 
 [Back to contents](#contents)
 
 ## **Features**
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
 ### **Features Implemented**
 
-- Feature one is a section with a description of Shiatsu which educates users to the basics of Shiatsu massage.
-- Feature two is a section about the specific Shin Tai massage which allows users to understand more about the subject, origin and health benefits.
-- Feature three is a section about the business owner and masseuse, Ali, including qualifications and an image of her for users to relate to. 
-- Feature four is a list of recent testimonials so that the user can identify how other users have benefitted from the service.
-- Feature five is a section about what to expect during the service including a youtube video tutorial.
-- Feature six is a Google Map location so that the users can find the area and compare to where they are located.
-- Feature seven is a contact page where the user can communicate with the business owner by filling out a form.
+Features relevant to both pages:
+- **Header**
+  - Contains the navigation links and is fixed to the top of the page for easy use on all devices (this was done using Bootstrap sticky-top class).
+  - All links are underlined when hovered over and for the icons this is done using the border-bottom attribute to provide spacing and prevent overlapping the icon.
+  - The headings are underlined as the user visits different areas of the page (using Bootstrap scroll-spy) to help the user work out where they are in the page.
+  - The home button is on the left of the header and sections of the page listed on the right where a user would expect them to be.
+  - Navigation links are underlined when the user hovers over them to give feedback that they have hovered over the right spot.
+  - On mobile and tablet view the Navigation links collapse in to a toggle button for easier user experience. Some JavaScript was used here to ensure the menu closes after a link is pressed to avoid the user having to close the menu. 
+  - The colour scheme is designed to be easy to read with the contrast and the ratio tested on Google Dev Tools.
+
+- **Hero sections**
+  - The image takes up the full width of the browser to leave a high impact lasting impression with the user and this is replicated on both pages to bring a sense of familiarity when browsing.
+  - The hero images were obtained when searching for massage related images to instantly give the user the confirmation that this is the site they were searching for.
+  
+ - **Footer** 
+  - Designed to sit at the bottom of the page after all of the content 
+  - Contains social media links and a link to Shiatsu Society website so that the user can verify the business owners professional status. 
+
+  
+*index.html*
+  
+- **About sections**
+  - About Shiatsu and About Shin Tai sections contain some information which allows users to understand more about the subject, origin and health benefits.
+  - About Me section gives the user some history about how the business owner discovered Shin Tai and confidence in her registered status along with a portrait of her for them to relate to.
+  - On mobile and tablet view the About Shin Tai and About Me sections have been condensed using Bootstrap Accordian component to prevent the user from having to scroll through large volumes of text. The information is split in to subheadings to allow the user to target the information they require. 
+
+- **Pricing and Services section**
+  - Provides a video showing the massage being performed by the developer of Shin Tai to allow the user to understand what to expect.
+
+- **Testimonials**
+  - Bootstrap cards used here to contain the testimonial quotes - featured on browser are three cards but to save space on mobile and tablet this has been reduced to one. 
+
+*contact.html*
+
+- **Contact form**
+  - For the user to contact the business owner, the fields: Name, Phone and Email and required and show error messages if not filled before clicking submit. Comments (textarea) is not required. 
+
+- **Modal**
+  - This component from Bootstrap's library is used to give feedback that the form has been submitted as without it the form would reset on submission. This required some use of JavaScript to show it only after all required fields have been filled. 
+
+- **Buttons** 
+  - On the form the buttons are as a user would expect there is a submit and reset button on the form with the Reset button having more muted colours and Submit button the obvious choice for the user to select upon submission. The modal Close button uses the same colour scheme making it easy for the user to understand what is expected after the message is displayed. 
+
 
 ### **Future Features**
-- Later I would like to implement an appointment booking system and for the user to receive feedback of appointment booked via email and sms.
-- I would also like to add an option for the user to add a testimonial to the business online.
+- I would like to implement an appointment booking system and for the user to receive feedback of appointment booked via email and sms.
+- I would also like to add an option for the user to add a testimonial to the business online and link to Trust Pilot
+
 
 ### **Responsive Design**
 
-
-### **Site Construction**
-
-
-### **Page Layout**
+- Bootstrap columns were used to make the site responsive on all devices.
 
 [Back to contents](#contents)
 
@@ -259,9 +301,13 @@ To clone this project from GitHub follow the instructions taken from [GitHub Doc
 - The information provided regarding Shiatsu was provided by the business owner, Alison Melville. 
 
 ### **Images**
-- The [hero image](https://unsplash.com/photos/J16LdoIsRJM) on index.html was sourced from [Unsplash](https://unsplash.com/) for free and credited to [Conscious Design](https://unsplash.com/@conscious_design)
 
-- The [hero image](https://unsplash.com/photos/lX7-dfIaeUc) from the contact.html page was sourced from [Unsplash](https://unsplash.com/) and free to use. Credit to [Laurent Gence](https://unsplash.com/@lgence)
+- #index.html
+  - The [Hero image](assets/images/conscious-design-J16LdoIsRJM-unsplash.jpg) on index.html was sourced from [Unsplash](https://unsplash.com/). Photo by <a href="https://unsplash.com/@conscious_design?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Conscious Design</a> on <a href="https://unsplash.com/s/photos/massage-therapy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  - The images of [Alison Performing Shin Tai Massage](assets/images/Ali-massage2.jpg) and [Alison's profile photo](assets/images/ali-photo2.jpg) were taken by her husband, Iain Melville.
+
+- #contact.html
+The hero image on contact.html was sourced from [Unsplash](https://unsplash.com/). Photo by <a href="https://unsplash.com/@lgence?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Laurent Gence</a> on <a href="https://unsplash.com/@dfu05229/likes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 ### **Inspiration**
 
