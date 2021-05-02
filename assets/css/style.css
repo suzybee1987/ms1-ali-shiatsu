@@ -1,6 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat&display=swap");
-/* font-family: "Architects Daughter", cursive;
-font-family: "Montserrat", sans-serif; */
 
 /* Body  */
 html,
@@ -37,10 +35,6 @@ h4 {
 .price-section h3,
 .find-me h3 {
   border-bottom: 2px solid #f5f9fd;
-}
-
-p {
-  font-size: 1em;
 }
 
 /* Navigation */
@@ -91,6 +85,7 @@ nav {
 ul.navbar-nav.navbar-brand {
   background-color: #5b76a0;
 }
+/* /Navigation */ 
 
 /* hero image */
 
@@ -143,6 +138,34 @@ ul.navbar-nav.navbar-brand {
   border-bottom: 1px solid #f5f9fd;
 }
 
+/* Md,sm devices about-shintai */
+.card.card-shintai {
+  border: 0;
+}
+
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.card-body-shintai {
+  color: #315252;
+  background-color: #f5f9fd;
+}
+
+.card-header.card-header-shintai {
+  background-color: #45b0ae;
+  color: #f5f9fd;
+}
+
+.card-header .btn-link {
+  color: #f5f9fd;
+  text-decoration: none;
+}
+.card-header .btn-link:hover {
+  text-decoration: underline;
+}
+
 /* About Me  */
 
 .about-me {
@@ -158,7 +181,24 @@ ul.navbar-nav.navbar-brand {
   box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.5);
 }
 
+/* Md,sm devices About-me */
+
+.card.card-me {
+  border: 0;
+}
+
+.card-body-me {
+  color: #80a1d4;
+  background-color: #f5f9fd;
+}
+
+.card-header.card-header-me {
+  background-color: #5b76a0;
+  color: #f5f9fd;
+}
+
 /* Pricing  */
+
 .price-section {
   padding: 40px 0px;
   background-color: #827aa2;
@@ -191,50 +231,6 @@ blockquote {
   color: #f5f9fd;
   padding: 30px 0 40px 0;
   text-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.25);
-}
-
-/* Md,sm devices about-shintai */
-.card.card-shintai {
-  border: 0;
-}
-
-.btn:focus {
-  outline: 0;
-  box-shadow: none;
-}
-
-.card-body-shintai {
-  color: #315252;
-  background-color: #f5f9fd;
-}
-
-.card-header.card-header-shintai {
-  background-color: #45b0ae;
-  color: #f5f9fd;
-}
-
-.card-header .btn-link {
-  color: #f5f9fd;
-  text-decoration: none;
-}
-.card-header .btn-link:hover {
-  text-decoration: underline;
-}
-
-/* Md,sm devices About-me */
-
-.card.card-me {
-  border: 0;
-}
-
-.card-body-me {
-  color: #80a1d4;
-  background-color: #f5f9fd;
-}
-
-.card-header.card-header-me {
-  background-color: #5b76a0;
-  color: #f5f9fd;
 }
 
 /* Footer  */
@@ -335,18 +331,8 @@ a {
   text-decoration-thickness: 2px;
 }
 
-/* button[type="button"]:disabled {
-  background: #555;
-  cursor: not-allowed;
-} */
-
 .form-group {
   margin-bottom: 1rem;
-}
-
-form {
-  /* margin: 20px; */
-  padding: 0;
 }
 
 .contact-form {
@@ -380,6 +366,8 @@ form {
   margin-bottom: 0;
 }
 
+/* modal  */
+
 .modal-header {
   background-color: #5b76a0;
   border-bottom: 1px solid #f5f9fd;
@@ -397,3 +385,11 @@ form {
   background-color: #f5f9fd;
   color: #5b76a0;
 }
+
+/* 404 error page  */
+
+.img-error img {
+  width: 450px;
+  height: 300px;
+}
+

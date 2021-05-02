@@ -30,8 +30,12 @@
   <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
   <!-- /Stylesheets  -->
 </head>
-
+<!-- Bootstrap Scrollspy  -->
+<!-- https://getbootstrap.com/docs/4.6/components/scrollspy/  -->
 <body data-spy="scroll" data-target="#navbar1" data-offset="110">
+  <!-- /Bootstrap Scrollspy  -->
+
+  <!-- Nav header  -->
   <header>
     <div class="container">
       <div class="row">
@@ -39,7 +43,7 @@
           <!-- Bootstrap navbar -->
           <!-- https://getbootstrap.com/docs/4.6/getting-started/introduction/ -->
           <nav id="navbar1" class="navbar navbar-expand-lg fixed-top navbar-dark">
-            <a class="navbar-brand" href="index.html"><i class="fas fa-spa"></i><span
+            <a class="navbar-brand active" href="index.html" active><i class="fas fa-spa"></i><span
                 class="sr-only">(current)</span></a>
             <!-- Bootstrap navbar toggler for mobile hamburger menu  -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
@@ -48,11 +52,12 @@
             </button>
             <div id="navbarToggle" class="collapse navbar-collapse justify-content-end">
               <!-- /Bootstrap navbar toggler for mobile hamburger menu  -->
+
               <ul class="navbar-nav navbar-brand">
                 <li class="nav-item">
                   <a class="nav-link" href="#shiatsu">Shiatsu</a>
                 </li>
-                <li>
+                <li class="nav-item">
                   <a class="nav-link" href="#about-me">About Me & Services</a>
                 </li>
                 <li class="nav-item">
@@ -67,6 +72,7 @@
               </ul>
             </div>
           </nav>
+          <!-- /Bootstrap navbar -->
         </div>
       </div>
     </div>
@@ -77,10 +83,13 @@
   <div class="container-fluid hero" loading="lazy">
     <div class="row">
       <div class="col-sm-6">
+        <!-- Bootstrap Jumbotron  -->
+        <!-- https://getbootstrap.com/docs/4.6/components/jumbotron/  -->
         <div class="jumbotron-index">
           <h1 class="display-5">Shiatsu Shin Tai</h1>
           <p class="lead">Alison Melville | Registered Professional Practitioner</p>
         </div>
+        <!-- /Bootstrap Jumbotron  -->
       </div>
     </div>
   </div>
@@ -126,7 +135,6 @@
             <h3 class="my-3">About Shin Tai</h3>
           </div>
         </div>
-
         <!-- Show only on large devices  -->
         <div class="d-none d-md-none d-lg-block">
           <div class="row justify-content-around my-3">
@@ -136,7 +144,7 @@
                 emphasises the flow of the two primary meridians: the Governing Vessel (along the spine) and
                 Conception Vessel (up the front of the body). Together with the Central Channel, these are the core
                 energetic channels from where the classical meridians develop.</p>
-              <p class="my-2">
+              <p>
                 The basic principle is to create space and restore motion and this leads to the recovery of life force
                 (lost energy) in the body. Life force gets trapped in the body from emotional, physical and
                 psychological trauma and everyday stresses thereby creating patterns of behaviour. Shin Tai touches
@@ -158,7 +166,8 @@
                 <li>long term benefits and preventative care</li>
               </ul>
               </p>
-              <p class="my-2">Shin Tai is a journey of self-discovery that enables individuals to have more energy, clarity and begin
+              <p class="my-2">Shin Tai is a journey of self-discovery that enables individuals to have more energy,
+                clarity and begin
                 to make
                 choices in life that brings them the most joy.
               </p>
@@ -167,9 +176,9 @@
         </div>
         <!-- /Show only on large devices  -->
 
-        <!-- Bootstrap Accordian  -->
-        <!-- https://getbootstrap.com/docs/4.6/components/collapse/#accordion-example -->
         <!-- Show only on md,sm devices  -->
+        <!-- Bootstrap Accordian -->
+        <!-- https://getbootstrap.com/docs/4.6/components/collapse/#accordion-example -->
         <div class="d-md-block d-lg-none">
           <div id="accordion">
             <div class="card card-shintai">
@@ -277,7 +286,10 @@
             <div class="col-md-6 text-center">
               <p>
                 I enrolled and graduated from the Shiatsu College, Manchester branch in 2009. I am a registered
-                practitioner with the Shiatsu Society. After graduating I have continued my professional development,
+                practitioner with the Shiatsu Society and this can be seen on their <a
+                  href="https://www.shiatsusociety.org/" alt="shiatsu society site"
+                  aria-label="Go to Shiatsu Society Site (opens in new tab)" target="_blank">website</a>. After
+                graduating I have continued my professional development,
                 undertaking workshops by leading bodywork practitioners. In 2013, I began my Shiatsu Shin Tai journey
                 with Kindy Kaur, a leading teacher of Shin Tai in the UK. Since then I have regularly attended
                 workshops learning the principles of Shin Tai. I see Shin Tai as a practice to enable us to get in
@@ -344,8 +356,10 @@
               <div id="collapseTwoMe" class="collapse" aria-labelledby="headingTwoMe" data-parent="#accordionMe">
                 <div class="card-body card-body-me">
                   <p>I enrolled and graduated from the Shiatsu College, Manchester branch in 2009. I am a registered
-                    practitioner with the
-                    Shiatsu Society. After graduating I have continued my professional development, undertaking
+                    practitioner with the Shiatsu Society and this can be seen on their <a
+                      href="https://www.shiatsusociety.org/" alt="shiatsu society site"
+                      aria-label="Go to Shiatsu Society Site (opens in new tab)" target="_blank">website</a>.After
+                    graduating I have continued my professional development, undertaking
                     workshops
                     by leading
                     bodywork practitioners. In 2013, I began my Shiatsu Shin Tai journey with Kindy Kaur, a leading
@@ -388,7 +402,7 @@
               <figure>
                 <iframe src="https://www.youtube.com/embed/aLYgPbQXyGw" width="560" height="315" loading="lazy"
                   title="YouTube video player" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" alt="Saul Goodman giving Shin Tai Massage"
                   allowfullscreen>
                   <p>Your browser does not support iframes.</p>
                 </iframe>
@@ -401,16 +415,13 @@
             <p>
               The session takes place on a body cushion on a futon at floor level and you remain fully clothed
               throughout. Please wear loose and comfortable clothing, ideally a long-sleeved t-shirt, jogging trousers
-              and socks. The first
-              session will be slightly longer, 60-75 minutes to enable me to get to know you better and for you to try
+              and socks. The first session will be slightly longer, 60-75 minutes to enable me to get to know you better and for you to try
               my work.</p>
             <p>
               I will
               also ask general questions regarding your general health and medical history. During each session, there
-              is time
-              for you to discuss any needs that you may have and afterwards there is also space to let the session
-              settle within
-              you before you leave and continue with your day.
+              is time for you to discuss any needs that you may have and afterwards there is also space to let the session
+              settle within you before you leave and continue with your day.
             </p>
             <p>
               Please drink plenty and of water before and after the session and take time to relax afterwards.
@@ -420,6 +431,7 @@
       </div>
     </section>
     <!-- /Price -->
+
     <!-- Testimonials -->
     <section id="testimonials" class="testimonial-section">
       <div class="container text-center">
@@ -430,6 +442,8 @@
         </div>
         <div class="row my-3">
           <div class="col-lg-4">
+            <!-- Bootstrap Card  -->
+            <!-- https://getbootstrap.com/docs/4.6/components/card/  -->
             <div class="card testimonials mx-auto h-100">
               <div class="card-header">
                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
@@ -438,8 +452,7 @@
               <div class="card-body">
                 <blockquote class="blockquote">
                   <p>I have been visiting Alison for years and she has worked wonders with my aches and
-                    pains. She's very professional and I
-                    wouldn't go to anyone else.</p>
+                    pains. She's very professional and I wouldn't go to anyone else.</p>
                   <div class="blockquote-footer"><i class="far fa-user"></i> Sandra Smith</div>
                 </blockquote>
               </div>
@@ -467,17 +480,18 @@
               </div>
               <div class="card-body">
                 <blockquote class="blockquote">
-                  <p>I wasn't sure what to expect but Alison very quickly put me at ease and now I wouldn't go anywhere
-                    else!</p>
+                  <p>I wasn't sure what to expect but Alison very quickly put me at ease and I felt the affects straight away.</p>
                   <div class="blockquote-footer"><i class="far fa-user"></i> Emily Bell</div>
                 </blockquote>
               </div>
             </div>
+            <!-- /Bootstrap card  -->
           </div>
         </div>
       </div>
     </section>
     <!-- /testimonials -->
+
     <!-- Find Me -->
     <section id="find" class="find-me text-center">
       <div class="container-fluid">
@@ -492,22 +506,24 @@
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38273.46045188499!2d-2.2444237775978784!3d53.1624015147116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487a44334a3609f1%3A0x7f5b0aab47594065!2sCongleton!5e0!3m2!1sen!2suk!4v1617635288927!5m2!1sen!2suk"
                 width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
-                class="embed-responsive-item"></iframe>
+                class="embed-responsive-item" alt="Google Maps showing Congleton area"></iframe>
             </div>
           </div>
         </div>
       </div>
     </section>
-
     <!-- /Find Me -->
   </article>
+
+<!-- Bootstrap Sticky Bottom Footer  -->
+<!-- https://getbootstrap.com/docs/4.6/examples/sticky-footer/  -->
   <footer class="sticky-bottom d-flex align-items-center">
     <div class="container-fluid">
       <div class="row">
         <div class="col">
           <ul class="list-inline sm-link-shiatsu">
             <li class="list-inline-item">
-              <a href="https://www.shiatsusociety.org/" target="_blank" width="127" height="79" rel="noopener"><img
+              <a href="https://www.shiatsusociety.org/" target="_blank" width="93" height="57" rel="noopener"><img
                   src="assets/images/logo.png" target="_blank" alt="Shiatsu Society Logo" /></a>
               <span class="sr-only">Shiatsu Society (UK)</span>
             </li>
@@ -538,20 +554,23 @@
       </div>
     </div>
   </footer>
+  <!-- /Bootstrap Sticky Bottom Footer  -->
+
   <!-- Scripts  -->
+  <!-- Bootstrap scripts  -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-    crossorigin="anonymous"></script>
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+  <!-- /Bootstrap scripts  -->
+
   <!-- Alex on Slack shared solution to close navbar after click  -->
   <!-- https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1618324403124300?thread_ts=1618323545.123900&cid=C7J2ZAVHB  -->
   <script> $('.navbar-nav>li>a').on('click', function () {
       $('.navbar-collapse').collapse('hide');
     });</script>
-
-
   <!-- /Scripts  -->
 </body>
 

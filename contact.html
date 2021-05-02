@@ -6,7 +6,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
-    content="Shiatsu Shin Tai with Registered Practitioner Alison Melville. Shiatsu Shin Tai treatments and training in Cheshire" />
+    content="Shiatsu Shin Tai with Registered Practitioner Alison Melville. Shiatsu Shin Tai treatments in Cheshire" />
   <meta name="keywords" content="shiatsu, shin tai, massage, cheshire, congleton, masseuse, studio, registered" />
   <meta name="author" content="Suzy Bennett">
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -37,6 +37,8 @@
     <div class="container">
       <div class="row">
         <div class="col">
+          <!-- Bootstrap Navbar  -->
+          <!-- https://getbootstrap.com/docs/4.6/components/navbar/  -->
           <nav id="navbar1" class="navbar navbar-expand-lg fixed-top navbar-dark">
             <a class="navbar-brand" href="index.html"><i class="fas fa-spa"></i></a>
             <!-- Bootstrap navbar toggler for mobile hamburger menu  -->
@@ -45,11 +47,12 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div id="navbarToggle" class="collapse navbar-collapse justify-content-end">
+              <!-- /Bootstrap navbar toggler for mobile hamburger menu  -->
               <ul class="navbar-nav navbar-brand">
                 <li class="nav-item">
                   <a class="nav-link" href="index.html#shiatsu">Shiatsu</a>
                 </li>
-                <li>
+                <li class="nav-item">
                   <a class="nav-link" href="index.html#about-me">About Me & Services</a>
                 </li>
                 <li class="nav-item">
@@ -59,11 +62,12 @@
                   <a class="nav-link" href="index.html#find">How To Find Me</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact Me<span class="sr-only">(current)</span></a>
+                  <a class="nav-link active" href="#contact">Contact Me<span class="sr-only">(current)</span></a>
                 </li>
               </ul>
             </div>
           </nav>
+          <!-- /Bootstrap navbar  -->
         </div>
       </div>
     </div>
@@ -73,6 +77,7 @@
     <div class="container-fluid hero-contact">
       <div class="contact-form justify-content-start">
         <h4 class="text-center my-2">Contact Me</h4>
+        <!-- Bootstrap form  -->
         <form id="contactForm" class="needs-validation">
           <div class="form-group row">
             <label for="name" class="col-md-4 my-2">Name:</label>
@@ -107,7 +112,10 @@
             </div>
           </div>
         </form>
+        <!-- /Bootstrap form  -->
+
         <!-- Bootstrap modal  -->
+        <!-- https://getbootstrap.com/docs/4.6/components/modal/  -->
         <div class="modal fade" id="submitModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
@@ -126,10 +134,13 @@
             </div>
           </div>
         </div>
+        <!-- /Bootstrap modal  -->
       </div>
     </div>
   </section>
 
+  <!-- Bootstrap sticky footer styling used-->
+  <!-- https://getbootstrap.com/docs/4.6/examples/sticky-footer/  -->
   <footer class="contact-footer d-flex align-items-center footer mt-auto py-3">
     <div class="container-fluid">
       <div class="row">
@@ -167,17 +178,13 @@
       </div>
     </div>
   </footer>
-
-
-  <!-- Scripts  -->
-  <!-- Davide Sanfilippo Codepen for modal to only appear when form submitted correctly -->
-
+  <!-- /Bootstrap sticky footer styling used-->
 
   <!-- Alex on Slack shared solution to close navbar after click  -->
   <!-- https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1618324403124300?thread_ts=1618323545.123900&cid=C7J2ZAVHB  -->
 
   <!-- Scripts  -->
-
+  <!-- Bootstrap scripts  -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
@@ -187,6 +194,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
     integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
     crossorigin="anonymous"></script>
+  <!-- /Bootstrap scripts  -->
 
   <!-- Alex on Slack shared solution to close navbar after click  -->
   <!-- https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1618324403124300?thread_ts=1618323545.123900&cid=C7J2ZAVHB  -->
@@ -194,11 +202,14 @@
       $('.navbar-collapse').collapse('hide');
     });
   </script>
+  <!-- /Alex on Slack shared solution to close navbar after click  -->
+
+  <!-- Solution from https://github.com/natalie-kate/haunted to show modal when required fields filled  -->
   <script>$('#contactForm').on('submit', function (e) {
       $('#submitModal').modal('show');
       e.preventDefault();
     });</script>
-
+  <!-- /Solution from https://github.com/natalie-kate/haunted to show modal when required fields filled  -->
 </body>
 
 </html>
