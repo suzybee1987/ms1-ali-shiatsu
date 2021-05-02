@@ -90,17 +90,15 @@ ul.navbar-nav.navbar-brand {
 /* hero image */
 
 .hero {
-  height: 80vh;
+  min-height:80vh;
   padding-top: 100px;
-  background: url("../images/conscious-design-J16LdoIsRJM-unsplash.jpg");
+  background: url("../images/conscious-design-unsplash.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  background-position: top center;
+  background-attachment: fixed;
+
 }
 
 .jumbotron-index {
@@ -181,6 +179,17 @@ ul.navbar-nav.navbar-brand {
   box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.5);
 }
 
+.about-me a {
+color: #5b76a0;
+text-decoration: underline;
+}
+
+.about-me a:hover {
+  background-color: #5b76a0;
+color: #f5f9fd;
+text-decoration: underline;
+}
+
 /* Md,sm devices About-me */
 
 .card.card-me {
@@ -207,6 +216,10 @@ ul.navbar-nav.navbar-brand {
 
 .pricing-body {
   padding: 20px 0;
+}
+
+iframe {
+  border: 0;
 }
 
 /* Testimonials  */
@@ -294,23 +307,11 @@ a {
   background-attachment: fixed;
 }
 
-.reset,
-.toast-header {
-  color: #5b76a0;
-  background-color: #f5f9fd;
-  border: 1px solid #5b76a0;
-}
-
-.toast {
-  opacity: 1;
-}
-
 .reset:hover {
   color: #f5f9fd;
   background-color: #5b76a0;
   text-decoration-style: solid;
   text-decoration-color: initial;
-  text-decoration-thickness: 2px;
 }
 
 .btn.submit {
@@ -328,7 +329,6 @@ a {
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-color: initial;
-  text-decoration-thickness: 2px;
 }
 
 .form-group {
@@ -337,7 +337,7 @@ a {
 
 .contact-form {
   position: relative;
-  background: rgba(245, 244, 244, 1.8);
+  background: rgba(245, 244, 244, 1);
   border-radius: 0.5rem;
   max-width: 500px;
   padding: 10px 15px 0px 15px;
@@ -377,7 +377,7 @@ a {
 
 .modal-btn {
   background-color: #5b76a0;
-  border-color: #5b76a0;
+  border-color: #f5f9fd;
   color: #f5f9fd;
 }
 

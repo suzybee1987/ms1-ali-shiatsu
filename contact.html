@@ -10,9 +10,6 @@
   <meta name="keywords" content="shiatsu, shin tai, massage, cheshire, congleton, masseuse, studio, registered" />
   <meta name="author" content="Suzy Bennett">
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <!-- Lighthouse req cache control - answer on stackoverflow  -->
-  <!-- https://stackoverflow.com/questions/4480304/how-to-set-http-headers-for-cache-control#:~:text=To%20use%20cache%2Dcontrol%20in,use%20the%20meta%20tag%2C%20e.g.&text=The%20value%20in%20the%20content,of%20the%20four%20values%20below.&text=HTTP%201.1.,%2DCACHE%20%7C%20NO%2DSTORE.   -->
-  <meta http-equiv="Cache-control" content="public">
 
   <!-- /Meta Data -->
   <!-- Browser title  -->
@@ -100,7 +97,7 @@
           <div class="form-group row">
             <label for="textArea" class="col-md-4 col-form-label-sm my-2">Comments:</label>
             <div class="col-sm-8">
-              <textarea type="text" class="form-control" id="textArea" placeholder="Questions? Comments?"></textarea>
+              <textarea class="form-control" id="textArea" placeholder="Questions? Comments?"></textarea>
             </div>
           </div>
           <div class="form-group row justify-content-end">
@@ -146,28 +143,28 @@
       <div class="row">
         <div class="col">
           <ul class="list-inline sm-link-shiatsu">
-            <li class="list-inline-item justify-content-start">
-              <a href="https://www.shiatsusociety.org/" target="_blank" width="127" height="79" rel="noopener"><img
-                  src="assets/images/logo.png" target="_blank" alt="Shiatsu Society Logo" /></a>
+            <li class="list-inline-item">
+              <a href="https://www.shiatsusociety.org/" target="_blank" rel="noopener">
+                <img src="assets/images/logo.png" alt="Shiatsu Society Logo" width="93" height="57" /></a>
               <span class="sr-only">Shiatsu Society (UK)</span>
             </li>
           </ul>
         </div>
         <div class="col">
           <ul class="list-inline sm-links">
-            <li class="list-inline-item justify-content-end">
+            <li class="list-inline-item">
               <a href="https://www.facebook.com/" target="_blank" rel="noopener">
                 <i class="fab fa-facebook" aria-hidden="true"></i>
                 <span class="sr-only">Facebook</span>
               </a>
             </li>
-            <li class="list-inline-item justify-content-end">
+            <li class="list-inline-item">
               <a href="https://www.twitter.com" target="_blank" rel="noopener">
                 <i class="fab fa-twitter" aria-hidden="true"></i>
                 <span class="sr-only">Twitter</span>
               </a>
             </li>
-            <li class="list-inline-item justify-content-end">
+            <li class="list-inline-item">
               <a href="https://www.instagram.com/" target="_blank" rel="noopener">
                 <i class="fab fa-instagram" aria-hidden="true"></i>
                 <span class="sr-only">Instagram</span>
@@ -179,9 +176,6 @@
     </div>
   </footer>
   <!-- /Bootstrap sticky footer styling used-->
-
-  <!-- Alex on Slack shared solution to close navbar after click  -->
-  <!-- https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1618324403124300?thread_ts=1618323545.123900&cid=C7J2ZAVHB  -->
 
   <!-- Scripts  -->
   <!-- Bootstrap scripts  -->
