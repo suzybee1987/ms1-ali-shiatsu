@@ -1,5 +1,3 @@
-readme
-
 # Alison Melville's Shiatsu Shin Tai
 
 ![](assets/images/readme-imgs/amiresponsive.png)
@@ -7,8 +5,11 @@ readme
 ## About
 
 **Alison Melville's Shiatsu** needs a B2C website that showcases a massage business specialising in Shin Tai near Manchester. I designed the site to educate the user about the benefits of Shiatsu Shin Tai and allow them to contact her to book a consultation. 
-I created the site to look professional and in keeping with the theme of similar Shiatsu websites and using the colour schemes to bring a relaxing impression as would be expected with a massage site.
+
+I created the site to look professional and in keeping with the theme of similar Shiatsu websites and using the colour schemes to bring a relaxing impression as would be expected with a massage site. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential and existing clients.
+
 The goal of the website will be to interact with existing and potential clients and be a source of information to educate them, build confidence and encourage them to contact the business owner.
+
 The site must contain all information required to complete these goals and site visitors will most likely be comparing with other similar services in the local area so must stand out and show everything the user would want to see.
 
 Link to [live site](https://suzybee1987.github.io/ms1-ali-shiatsu/index.html)
@@ -17,8 +18,6 @@ Link to [live site](https://suzybee1987.github.io/ms1-ali-shiatsu/index.html)
 
 - [**UX (User Experience)**](#ux-user-experience)
   - [**User Stories**](#user-stories)
-  - [**Project Goals**](#project-goals)
-  - [**User Goals**](#user-goals)
   - [**Site Owner Goals**](#site-owner-goals)
 - [**Design Choices**](#design-choices)
   - [**Fonts**](#fonts)
@@ -47,6 +46,7 @@ Link to [live site](https://suzybee1987.github.io/ms1-ali-shiatsu/index.html)
   - [**Code**](#code)
   - [**Content**](#content)
   - [**Images**](#images)
+  - [**Videos**](#videos)
   - [**Inspiration**](#inspiration)
   - [**Acknowledgements**](#acknowledgements)
   
@@ -60,6 +60,8 @@ Link to [live site](https://suzybee1987.github.io/ms1-ali-shiatsu/index.html)
   - I want to click the navigation links to be taken to the correct section and also back to home for a better user experience.
   - I want the page to be in a predictable layout so that I can navigate it easily.  
   - I want to see a map of the location so that I can determine how close it is to my location and navigate there easily.  
+  - I want to easily understand the main purpose of the site and learn more about the business.
+  - I want to see testimonials to understand what previous users think of them and see if they are trusted.
 
 - As a user returning to the site:
   - I want to be able to access the site easily on my chosen device
@@ -71,14 +73,6 @@ Link to [live site](https://suzybee1987.github.io/ms1-ali-shiatsu/index.html)
    - I want to see a demonstration of what to expect when receiving a Shiatsu Shin Tai massage.
    - I want some information about the price and time required per session
    - I want some information about the business owner's qualifications.
-   
-   
-### **Project Goals**
-- The primary goal of this site is to showcase Ali's Shiatsu Shin Tai massage business to attract new clients and provide a means of communication while linking to social media pages. 
-
-
-### **User Goals**
-- The user will be able to find out more about Shiatsu Shin Tai and be able to contact Ali for more information.
 
 
 ### **Site Owner Goals** 
@@ -89,12 +83,14 @@ Link to [live site](https://suzybee1987.github.io/ms1-ali-shiatsu/index.html)
 
 [Back to contents](#contents)
 
+
 ## **Design Choices**
 
 
 ### **Fonts**
 
 I have chosen [Architect's Daughter](https://fonts.google.com/specimen/Architects+Daughter) for the headers as it is easy to read and has sufficient contrast to the main body font. It is a cursive font so has a more easy-going, relaxed look inkeeping with the feel of the site. 
+
 ![Example here](assets/images/readme-imgs/architects-daughter.PNG)
 
 and [Montserrat](https://fonts.google.com/specimen/Montserrat) for the rest of the text on the site (eg. paragraphs and lists) as it is easy to read with wider spacing than other fonts.
@@ -104,24 +100,24 @@ and [Montserrat](https://fonts.google.com/specimen/Montserrat) for the rest of t
 
 ### **Colours**
 
-As the site purpose is about relaxation and massage the colour scheme used is adapted to suit with what the user would expect of this kind of site. It features complementary blue, green and purple colours that also stand out to make the content easy to read. The colours chosen are:
+As the site purpose is about relaxation and massage the colour scheme used is adapted to suit with what the user would expect of this kind of site. It features complementary blue, green and purple colours that also stand out to make the content easy to read when teamed with a white contrast. 
+
+The colours chosen are:
 
 ![Coolors Palette](assets/images/ms1-coolors.png.png)
 
 
 Format: [Coolors Palette](https://coolors.co/5b76a0-299491-45b0ae-827aa2-f5f9fd)
 
-These colours compliment each other well and are not too striking, in keeping with what the user expects. 
+These colours complement each other well and are not too striking, in keeping with what the user expects. 
+
 
 ### **Imagery**
 
 Images can be found in [assets](assets/images) and feature Shin Tai massages being performed, a profile of the business owner and continue with the relaxing theme of the site.
 Some of the images have been sourced from [Unsplash](https://unsplash.com/) and are free to use if credited and others were provided by the business owner. 
-  
-### Video
+The images were chosen because they show the massage being given and give the user an idea of what to expect straight away. 
 
--index.html
-  - The [Massage Demonstration Video](https://youtu.be/aLYgPbQXyGw) is performed by Saul Goodman who came up with the Shin Tai blend of massage. 
 
 ### **Wireframes**
 
@@ -137,7 +133,9 @@ The wireframes were created using [Balsamiq](https://balsamiq.com/) and can be f
 
 [Back to contents](#contents)
 
+
 ## **Technologies**
+
 
 ### **Languages**
 
@@ -148,10 +146,11 @@ The wireframes were created using [Balsamiq](https://balsamiq.com/) and can be f
 - [jQuery](https://developer.mozilla.org/en-US/docs/Glossary/jQuery) and [Popper.js](https://popper.js.org/)
   - Used with Bootstrap Scrollspy to track location on the page and Bootstrap Collapse for Accordion sections on mobile and tablet view. Also used with the contact form to launch the modal after required fields on form were completed. 
 
+
 ### **Libraries**
-​
+
 - [Bootstrap](https://getbootstrap.com/)
-  - Used to design a mobile-first responsive website layout along with custom components (navigation bar toggle button, accordion, cards, scrollspy, footer).
+  - Used to design a mobile-first responsive website layout along with custom components (navigation bar + toggle button, accordion, cards, scrollspy, footer, jumbotron).
 
   
 ### **Tools**
@@ -159,7 +158,7 @@ The wireframes were created using [Balsamiq](https://balsamiq.com/) and can be f
 - [Git](https://git-scm.com/)
   - Git was used for version control (commit to Git and push to GitHub).
 - [GitHub](https://github.com/)
-  - Used to store, host and deploy the project files and source code after being pushed from Git. I also used it for the Project Kanban board.
+  - Used to store, host and deploy the project files and source code after being pushed from Git. I also used it for the Project Kanban board to keep track and split tasks into smaller tasks to make them easier to fulfill.
 - [Gitpod](https://www.gitpod.io/)
   - An online IDE linked to the GitHub repository used to write my code.
 - [Font-Awesome](https://fontawesome.com/icons?d=gallery)
@@ -172,12 +171,17 @@ The wireframes were created using [Balsamiq](https://balsamiq.com/) and can be f
   - Used to generate a favicon for the website title.
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
   - Used to audit the site for quality and ensure responsiveness.
+- [WebPageTest](https://www.webpagetest.org/)
+  - Used to test performance.
 - [amiresponsive](http://ami.responsivedesign.is/)
   - An online tool to check how responsive the site is on different devices.
+- [tinypng](https://tinypng.com/)
+  - Used to reduce the size of the images for better user experience.
 
 [Back to contents](#contents)
 
 ## **Features**
+
 
 ### **Features Implemented**
 
@@ -186,7 +190,7 @@ Features relevant to both pages:
     - Contains the navigation links and is fixed to the top of the page for easy use on all devices (this was done using Bootstrap sticky-top class).
     - All links are underlined when hovered over and for the icons this is done using the border-bottom attribute to provide spacing and prevent overlapping the icon.
     - The headings are underlined as the user visits different areas of the page (using Bootstrap scroll-spy) to help the user work out where they are in the page.
-    - The home button is on the left of the header and sections of the page listed on the right where a user would expect them to be.
+    - The home button is on the left side of the header and sections of the page listed on the right where a user would expect them to be.
     - Navigation links are underlined when the user hovers over them to give feedback that they have hovered over the right spot.
     - On mobile and tablet view the Navigation links collapse in to a toggle button for easier user experience. Some JavaScript was used here to ensure the menu closes after a link is pressed to avoid the user having to close the menu. 
     - The colour scheme is designed to be easy to read with the contrast and the ratio tested on Google Dev Tools.
@@ -197,7 +201,7 @@ Features relevant to both pages:
   
 - **Footer** 
     - Designed to sit at the bottom of the page after all of the content 
-    - Contains social media links and a link to Shiatsu Society website so that the user can verify the business owners professional status. 
+    - Contains social media links and a link to Shiatsu Society website so that the user can verify the business owner's professional status. 
 
   
 #### *index.html*
@@ -234,19 +238,24 @@ Features relevant to both pages:
 - I would also like to add an option for the user to add a testimonial to the business online and link to Trust Pilot
 - I would like to implement a swipeable carousel for the Testimonials on mobile/tablet view 
 
+
 ### **Responsive Design**
 
 - Bootstrap columns were used to make the site responsive on all devices.
 
 [Back to contents](#contents)
 
+
 ## **Version Control**
 
-**Version control** was managed within **GitHub** and **Gitpod** and regular commits pushed to **GitHub**.
+**Version control** was managed within **GitHub** and **Gitpod** and regular commits pushed to **GitHub**. 
+See below for how this was managed:
+
 
 ### Gitpod Workspaces
 1. Starting from GitHub clone the [Code Institute template](https://github.com/Code-Institute-Org/gitpod-full-template) by clicking Use This Template and copying to my repository under the name ms1-ali-shiatsu. The workspace is then launched by clicking GitPod - this action only needs to be performed once and then workspace reopened from GitPod.
 2. Start the Gitpod Workspace which opens an **online IDE editor** window.
+
 
 ### Update GitHub by committing from GitPod
 3. After each change made I would save the code, perform *git add .*, *git commit -m "commit message here"* and *git push* to push my changes to the GitHub repository. 
@@ -256,7 +265,9 @@ After beginning this process I acknowledged that using git branches would be a m
 
 [Back to contents](#contents)
 
+
 ## **Testing**
+
 
 ### **Functionality Testing**
 
@@ -275,7 +286,7 @@ The devices used in this testing include Acer Swift 3, iPad Mini 2, Huawei P30 l
 
 - Scrollspy
   1. Scroll down the page
-  2. See the underlined nav links just before each new section is reached.
+  2. Notice the underlined nav links just before each new section is reached.
   3. Tested on all browsers and mobiles. 
 
 - Footer 
@@ -316,6 +327,7 @@ The devices used in this testing include Acer Swift 3, iPad Mini 2, Huawei P30 l
   2. Modal shows only when all required fields correctly filled
   3. Close button works as required.
 
+
 ### **User Story Testing**
 
 Testing was completed to make sure the user goals were completed
@@ -329,6 +341,8 @@ Testing was completed to make sure the user goals were completed
     -The layout is colour coordinated to make it easy to see where each section starts and ends.
   - [x]I want to see a map of the location so that I can determine how close it is to my location and navigate there easily.  
     -Google Map with the local area featured in Find Me section. 
+  - [x]I want to easily understand the main purpose of the site and learn more about the business.
+  - [x]I want to see testimonials to understand what previous users think of them and see if they are trusted.
 
 - As a user returning to the site:
   - [x]I want to be able to access the site easily on my chosen device
@@ -356,6 +370,7 @@ Testing was completed to make sure the user goals were completed
   -[contact.html](https://www.webpagetest.org/result/210502_AiDcYW_b5066f465ced9a2a821f8e4138e48c1b/)
     -[Security Score](assets/images/readme-images/webpagetest-contact)
   
+- [Lighthouse]
 
 ### **Responsive**
 The site is responsive on all browsers and mobile through bootstrap framework and media queries and was tested using [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/). 
@@ -364,95 +379,7 @@ The live site address was given to family and friends as well as the business ow
 
 ### **W3C Validator**
 
-W3C tests completed for html and css pages
-
-- Scrollspy
-  1. Scroll down the page
-  2. See the underlined nav links just before each new section is reached.
-  3. Tested on all browsers and mobiles. 
-
-- Footer 
-  1. Scroll to the bottom of the page
-  2. Sticks to the bottom of the page no matter how much content is present - this was tested by deleting all the other content from the body and it stayed on the bottom.
-  3. Click the social media links and they open the relevant pages in a new tab. 
-  4. Tested on all browsers and mobiles. 
- 
-- Accordion Menus
-  1. Click each heading in turn
-  2. Only one card is open at once as designed
-  3. As another is opened the last card is closed
-  4. This was tested on all browsers for sizes 992px and below. 
-
-- Youtube Video
-  1. Scroll to Pricing section
-  2. Video does not autoplay
-  3. Click play and it plays successfully in the window and can click to open in full screen
-  4. Tested on all browsers and mobile. 
-
-- Google Maps iframe
-  1. Scroll to Find Me section
-  2. Google Maps iframe visible
-  3. Zoom function works correctly,
-  4. Hover over and full screen option is available
-  5. Tested on all browsers and mobile. 
-
-- Contact form 
-  1. Open "Contact" page
-  2. Try to submit form without required fields and an error message appears.
-  3. Try to submit with invalid email address, error message appears.
-  4. Try to submit with less than 11 numbers in the phone number field and error appears. 
-  5. Try to submit the form with all required fields filled correctly and success message appears. 
-  6. Tested on all browsers and mobile
-
-- Modal
-  1. Successfully submit form
-  2. Modal shows only when all required fields correctly filled
-  3. Close button works as required.
-
-### **User Story Testing**
-
-Testing was completed to make sure the user goals were completed
-
-- As a user visiting the site for the first time:
-  - [x]I want to be able to see social media links so that I can keep up to date through Facebook, Instagram and Twitter.
-    -Social media links open in new tabs
-  - [x]I want to click the navigation links to be taken to the correct section and also back to home for a better user experience.
-    -Navigation links work correctly to direct to the right part of the site.
-  - [x]I want the page to be in a predictable layout so that I can navigate it easily.  
-    -The layout is colour coordinated to make it easy to see where each section starts and ends.
-  - [x]I want to see a map of the location so that I can determine how close it is to my location and navigate there easily.  
-    -Google Map with the local area featured in Find Me section. 
-
-- As a user returning to the site:
-  - [x]I want to be able to access the site easily on my chosen device
-    -Site is responsive on all devices tested and Google Dev Tools
-  - [x]I want to easily be able to navigate to different parts of the site
-    -Fixed navigation at top of page and scroll spy allows for easy navigation
-  - [x]I want to be able to contact the business owner as I wish through social media or contact form
-    -Contact form available and social media links to keep in touch with business owner.
-
-- As a user who has never had a Shiatsu Shin Tai Massage before:
-   - [x]I want to use the site to learn more about Shiatsu Shin Tai and how to contact the business owner so that I can ask questions.
-    -Information provided about Shiatsu and Shin Tai to help the user learn more and contact form included.
-   - [x]I want to see a demonstration of what to expect when receiving a Shiatsu Shin Tai massage.
-    -YouTube video included and description of what to expect for users who can't view the video.
-   - [x]I want some information about the price and time required per session
-    -Pricing information available on request due to individual needs. Time of session provided in pricing section
-   - [x]I want some information about the business owner's qualifications.
-    -About Me section communicates to the user the qualification held through Shiatsu Society and link to their website where the business owner can be verified. 
-
-### **Performance Testing**
-- Testing completed at [WebPageTest](https://www.webpagetest.org/), location London, browser Chrome. The site suggested to improve security and cache which is outside the scope of this course so far. 
-  -[index.html](https://www.webpagetest.org/result/210502_AiDc9H_54970e9720a3e3a7effb48b06e5a3eeb/)
-    -[Security Score](assets/images/readme-images/webpagetest-index)
-  -[contact.html](https://www.webpagetest.org/result/210502_AiDcYW_b5066f465ced9a2a821f8e4138e48c1b/)
-    -[Security Score](assets/images/readme-images/webpagetest-contact)
-  
-### **Responsive**
-The site is responsive on all browsers and mobile through bootstrap framework and media queries and was tested using [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/). 
-The live site address was given to family and friends as well as the business owner to confirm the links work as expected and is responsive on all devices. 
-
-### **W3C Validator tests completed for html and css pages**
+**W3C tests completed for html and css pages**
 
 ![index.html](assets/images/readme-imgs/html-validator)
 ![contact.html](assets/images/readme-imgs/html-validator-contact)
@@ -460,12 +387,14 @@ The live site address was given to family and friends as well as the business ow
 
 [Back to contents](#contents)
 
+
 ## **Bugs**
 
 - iframe bug
   - During testing the w3c validator flagged the usage of <p> within the iframe which would be displayed if the youtube video would not load. This was learned on the course and there doesn't seem to be an alternative from my research. 
 
 [Back to contents](#contents)
+
 
 ## **Deployment**
 
@@ -478,13 +407,16 @@ To deploy the page to **GitHub Pages** these steps were taken:
 4. Under **Source** select **None** and then **Master Branch**.
 5. The site automatically refreshes and the website deployed providing the link: https://suzybee1987.github.io/ms1-ali-shiatsu/index.html
 
+
 ### How to contribute to the site
+
 1. Navigate to [GitHub](https://github.com/) and log in
 2. Locate my [repo](https://github.com/suzybee1987/ms1-ali-shiatsu)
 3. On the right side of the screen click Fork
 4. This creates a copy in your own repository to make changes in [GitPod](https://gitpod.io/)
 5. Once finished with changes add, commit and push to your own [GitHub](https://github.com/)
 6. Click Pull Requests and select "New Pull Request" button.
+
 
 ### How to run the project locally
 
@@ -499,14 +431,18 @@ To clone this project from GitHub follow the instructions taken from [GitHub Doc
 
 [Back to contents](#contents)
 
+
 ## **Credits**
 
+
 ### **Code**
+
 - CodeInstitute Full Stack Developer Course
 - LinkedIn Learning course by [James Williamson](https://www.linkedin.com/learning/html-essential-training-2017/)
 - LinkedIn Learning course by [Christina Truong](https://www.linkedin.com/learning/css-essential-training-3/)
 
 ### **Content**
+
 - The information provided regarding Shiatsu was provided by the business owner, Alison Melville. 
 - README.md help came from: 
   -[Code Institute](https://github.com/Code-Institute-Solutions/SampleREADME)
@@ -515,26 +451,38 @@ To clone this project from GitHub follow the instructions taken from [GitHub Doc
   
 ### **Layout**
 
+-Code Institute lessons using bootstrap
 -[Background layout](https://css-tricks.com/perfect-full-page-background-image/) from css-tricks.com
 -[Layout fix](https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/) when contact form overlapped footer
 -[Lazy Loading](https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading) added to iframes after reading Lighthouse report which showed these slow down the site loading time. Solution found [here](https://css-tricks.com/the-complete-guide-to-lazy-loading-images/)
 -[Modal on submission](https://github.com/natalie-kate/haunted) issue was coming up because the button type="button" was required to make the modal work but this button type doesn't produce error if required fields not completed. Checked on slack and found a solution from post on #peer-code-review where @Nat_kate managed to fix this issue.
 
+
 ### **Images**
-Images were run through [tinypng.com](https://tinypng.com/) to reduce the size after running Lighthouse report. This helps load the site faster and provides better user experience.
+
 - #index.html
   - The [Hero image](assets/images/conscious-design-J16LdoIsRJM-unsplash.jpg) on index.html was sourced from [Unsplash](https://unsplash.com/). Photo by <a href="https://unsplash.com/@conscious_design?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Conscious Design</a> on <a href="https://unsplash.com/s/photos/massage-therapy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   - The images of [Alison Performing Shin Tai Massage](assets/images/Ali-massage2.jpg) and [Alison's profile photo](assets/images/ali-photo2.jpg) were taken by her husband, Iain Melville.
 
 - #contact.html
 The hero image on contact.html was sourced from [Unsplash](https://unsplash.com/). Photo by <a href="https://unsplash.com/@lgence?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Laurent Gence</a> on <a href="https://unsplash.com/@dfu05229/likes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+
+### **Videos**
+
+-index.html
+  - The [Massage Demonstration Video](https://youtu.be/aLYgPbQXyGw) is performed by Saul Goodman who came up with the Shin Tai blend of massage. 
+  
   
 ### **Inspiration**
 
 - Scrollspy navigation inspiration from Peer Code Review project posted by [Claire Lemonair](https://github.com/lemocla/MS1-Catsitting)
+- The business owner shared some well known sites to compare to: [Dawn Oei](https://www.dawnoei-shiatsushintai.com/), [Kindy Kaur Shiatsu](https://www.kindykaur.com/)
+
 
 ### **Acknowledgements**
 
-- I received inspiration for this project from X
+- My Mentor for confidence boosting and helpful advice and feedback.
+- Friends and family for testing the site and giving feedback.
 
 [Back to contents](#contents)
