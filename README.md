@@ -114,7 +114,7 @@ These colours complement each other well and are not too striking, in keeping wi
 
 ### **Imagery**
 
-Images can be found in [assets](assets/images) and feature Shin Tai massages being performed, a profile of the business owner and continue with the relaxing theme of the site.
+Images feature Shin Tai massages being performed, a profile of the business owner and continue with the relaxing theme of the site.
 Some of the images have been sourced from [Unsplash](https://unsplash.com/) and are free to use if credited and others were provided by the business owner. 
 The images were chosen because they show the massage being given and give the user an idea of what to expect straight away. 
 
@@ -125,8 +125,8 @@ The wireframes were created using [Balsamiq](https://balsamiq.com/) and can be f
 
 - [Home](assets/images/wireframes/index.png)
 - [Contact Page](assets/images/wireframes/contact.png)
-- [Mobile View - Home](assets/images/wireframes/mobileindex.png)
-- [Mobile View - Contact Page](assets/images/wireframes/contact.png)
+- [Mobile View - Home](assets/images/wireframes/mobile-index.png)
+- [Mobile View - Contact Page](assets/images/wireframes/mobile-contact.png)
 - [Tablet View - Home](assets/images/wireframes/tablet-index.png)
 - [Tablet View - Contact Page](assets/images/wireframes/tablet-contact.png)
 
@@ -181,7 +181,6 @@ The wireframes were created using [Balsamiq](https://balsamiq.com/) and can be f
 [Back to contents](#contents)
 
 ## **Features**
-
 
 ### **Features Implemented**
 
@@ -251,11 +250,9 @@ Features relevant to both pages:
 **Version control** was managed within **GitHub** and **Gitpod** and regular commits pushed to **GitHub**. 
 See below for how this was managed:
 
-
 ### Gitpod Workspaces
 1. Starting from GitHub clone the [Code Institute template](https://github.com/Code-Institute-Org/gitpod-full-template) by clicking Use This Template and copying to my repository under the name ms1-ali-shiatsu. The workspace is then launched by clicking GitPod - this action only needs to be performed once and then workspace reopened from GitPod.
 2. Start the Gitpod Workspace which opens an **online IDE editor** window.
-
 
 ### Update GitHub by committing from GitPod
 3. After each change made I would save the code, perform *git add .*, *git commit -m "commit message here"* and *git push* to push my changes to the GitHub repository. 
@@ -265,9 +262,7 @@ After beginning this process I acknowledged that using git branches would be a m
 
 [Back to contents](#contents)
 
-
 ## **Testing**
-
 
 ### **Functionality Testing**
 
@@ -381,9 +376,12 @@ The live site address was given to family and friends as well as the business ow
 
 **W3C tests completed for html and css pages**
 
-![index.html](assets/images/readme-imgs/html-validator)
-![contact.html](assets/images/readme-imgs/html-validator-contact)
-![css](assets/images/readme-imgs/css-validator)
+![index.html](assets/images/readme-imgs/html-validator.PNG)
+See [bugs](#bugs), below
+
+![contact.html](assets/images/readme-imgs/html-validator-contact.PNG))
+
+![css](assets/images/readme-imgs/css-validator.PNG)
 
 [Back to contents](#contents)
 
@@ -391,7 +389,17 @@ The live site address was given to family and friends as well as the business ow
 ## **Bugs**
 
 - iframe bug
-  - During testing the w3c validator flagged the usage of <p> within the iframe which would be displayed if the youtube video would not load. This was learned on the course and there doesn't seem to be an alternative from my research. 
+  - During testing the [W3C Validator](#w3c-validator) flagged the usage of <p> within the iframe which would be displayed if the youtube video would not load. This was learned on the course and there doesn't seem to be an alternative from my research. 
+
+- navbar toggler
+  - During coding process navbar toggle menu background was transparent and required a fix by setting background color to the links.
+
+- Overlapping content
+  - During coding process some elements were overlapping but fixed by assigning max-width 100vh to the background images.
+
+- Gutter issue
+  - During coding there was a horizontal scroll bar discovered and through some troubleshooting I discovered an extra div row class so fixed soon after discovery. 
+
 
 [Back to contents](#contents)
 
@@ -453,8 +461,11 @@ To clone this project from GitHub follow the instructions taken from [GitHub Doc
 
 -Code Institute lessons using bootstrap
 -[Background layout](https://css-tricks.com/perfect-full-page-background-image/) from css-tricks.com
+
 -[Layout fix](https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/) when contact form overlapped footer
+
 -[Lazy Loading](https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading) added to iframes after reading Lighthouse report which showed these slow down the site loading time. Solution found [here](https://css-tricks.com/the-complete-guide-to-lazy-loading-images/)
+
 -[Modal on submission](https://github.com/natalie-kate/haunted) issue was coming up because the button type="button" was required to make the modal work but this button type doesn't produce error if required fields not completed. Checked on slack and found a solution from post on #peer-code-review where @Nat_kate managed to fix this issue.
 
 
@@ -465,7 +476,7 @@ To clone this project from GitHub follow the instructions taken from [GitHub Doc
   - The images of [Alison Performing Shin Tai Massage](assets/images/Ali-massage2.jpg) and [Alison's profile photo](assets/images/ali-photo2.jpg) were taken by her husband, Iain Melville.
 
 - #contact.html
-The hero image on contact.html was sourced from [Unsplash](https://unsplash.com/). Photo by <a href="https://unsplash.com/@lgence?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Laurent Gence</a> on <a href="https://unsplash.com/@dfu05229/likes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  - The hero image on contact.html was sourced from [Unsplash](https://unsplash.com/). Photo by <a href="https://unsplash.com/@lgence?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Laurent Gence</a> on <a href="https://unsplash.com/@dfu05229/likes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 
 ### **Videos**
