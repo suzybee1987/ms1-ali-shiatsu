@@ -77,15 +77,9 @@ nav {
   font-size: 1.5em;
 }
 
-.fa-spa:hover {
-  text-decoration: underline;
-  text-underline-position: under;
-}
-
 ul.navbar-nav.navbar-brand {
   background-color: #5b76a0;
 }
-/* /Navigation */ 
 
 /* hero image */
 
@@ -98,7 +92,6 @@ ul.navbar-nav.navbar-brand {
   -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
-
 }
 
 .jumbotron-index {
@@ -109,6 +102,7 @@ ul.navbar-nav.navbar-brand {
   background-color: rgba(245, 245, 245, 0.9);
   border-radius: 0.5rem;
 }
+
 .display-5 {
   border-radius: 0.5rem;
 }
@@ -160,6 +154,7 @@ ul.navbar-nav.navbar-brand {
   color: #f5f9fd;
   text-decoration: none;
 }
+
 .card-header .btn-link:hover {
   text-decoration: underline;
 }
@@ -191,7 +186,6 @@ text-decoration: underline;
 }
 
 /* Md,sm devices About-me */
-
 .card.card-me {
   border: 0;
 }
@@ -369,6 +363,7 @@ a {
     min-height: 95vh;
   }
 }
+
 .form-group.row.justify-content-end {
   margin-bottom: 0;
 }
