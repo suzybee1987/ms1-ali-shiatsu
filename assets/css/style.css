@@ -92,7 +92,7 @@ ul.navbar-nav.navbar-brand {
 .hero {
   min-height:80vh;
   padding-top: 100px;
-  background: url("../images/conscious-design-unsplash.jpg") no-repeat center center fixed;
+  background: url("../images/conscious-design-unsplash.jpg") no-repeat top center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -307,6 +307,14 @@ a {
   background-attachment: fixed;
 }
 
+.btn.reset {
+  color: #5b76a0;
+  background-color: #f5f9fd;
+  text-align: center;
+  border-color: #80a1d4;
+  border-width: 1px;
+}
+
 .reset:hover {
   color: #f5f9fd;
   background-color: #5b76a0;
@@ -317,7 +325,6 @@ a {
 .btn.submit {
   color: #f5f9fd;
   background-color: #5b76a0;
-  /* margin-bottom: 10px; */
   text-align: center;
   border-color: #80a1d4;
   border-width: 1px;
