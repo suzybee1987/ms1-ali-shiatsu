@@ -365,7 +365,9 @@ Testing was completed to make sure the user goals were completed
   -[contact.html](https://www.webpagetest.org/result/210502_AiDcYW_b5066f465ced9a2a821f8e4138e48c1b/)
     -[Security Score](assets/images/readme-images/webpagetest-contact)
   
-- [Lighthouse]
+- [Lighthouse Report Result](assets/images/readme-imgs/lighthouse-report.PNG)
+  -Main issues to bring down the performance score were things outwith my control - eg. Bootstrap links (error unused CSS) and caching issues (requesting http cache-control)
+
 
 ### **Responsive**
 The site is responsive on all browsers and mobile through bootstrap framework and media queries and was tested using [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/). 
